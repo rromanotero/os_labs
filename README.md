@@ -1,4 +1,4 @@
-# Computer Architecture Labs for Raspberry PI 3
+# Operating Systems Labs for Raspberry PI 3
 
 ## Bare-metal Raspberry PI 3 Resources ( We'll be building on these )
 - [Application note. Bare-metal Boot Code for ARMv8-A Processors](http://infocenter.arm.com/help/topic/com.arm.doc.dai0527a/DAI0527A_baremetal_boot_code_for_ARMv8_A_processors.pdf)
@@ -20,8 +20,8 @@ docker pull rromanotero/aarch64
 ## Compiling this Lab on Windows
 ##### ( Docker Windows requires the FULL PATH TO THE LAB FOLDER to bind mount it)
 ```bash
-git clone https://github.com/rromanotero/computer_architecture_labs.git
-cd computer_architecture_labs
+git clone https://github.com/rromanotero/os_labs.git
+cd os_labs
 docker run `
        -v C:\...\LAB_FOLDER:/src `
        rromanotero/aarch64 `
@@ -30,8 +30,8 @@ docker run `
 
 ## Compiling this Lab on Linux/Mac
 ```bash
-git clone https://github.com/rromanotero/computer_architecture_labs.git
-cd computer_architecture_labs
+git clone https://github.com/rromanotero/os_labs.git
+cd os_labs
 docker run \
        -v ./LAB_FOLDER:/src \
        rromanotero/aarch64 \
