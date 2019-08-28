@@ -1,4 +1,4 @@
-# Lab 2 - Binary and Hexadecimal
+# Lab 1 - Binary and Hexadecimal
 
 ### Objectives
 Upon completion of this lab, the student shall be able to:

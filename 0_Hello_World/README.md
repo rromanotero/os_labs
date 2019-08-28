@@ -1,4 +1,4 @@
-# Lab 1 - Hello World
+# Lab 0 - Hello World
 
 ### Objectives
 1. To get familiar with compiling bare-metal executables for the PI 3
