@@ -1,6 +1,6 @@
 #
-#   This file is part of computer_architecture_labs
-#   (https://github.com/rromanotero/computer_architecture_labs).
+#   This file is part of os_labs
+#   (https://github.com/rromanotero/os_labs).
 #
 #   Copyright (c) 2019 Rafael Roman Otero.
 #
@@ -18,6 +18,7 @@
 #   along with this program.  If not, see <https://www.gnu.org/licenses/>.
 #
 
+AS=aarch64-elf-gcc
 CC=aarch64-elf-gcc
 LD=aarch64-elf-ld
 OBJCOPY=aarch64-elf-objcopy
@@ -25,27 +26,40 @@ OBJDUMP=aarch64-elf-objdump
 ELF=kernel8.elf
 IMAGE=kernel8.img
 
-CFLAGS = -mcpu=cortex-a53 -O0 -ffreestanding -nostdlib -nostartfiles
+TARGET_EXEC ?= kernel8.img
+SRC_DIRS ?= ./src
+BUILD_DIR ?= ./build
+OUTPUT ?= ./output
 
-OUTPUT := output
-SRC_C := $(wildcard src/*.c)
-SRC_S := $(wildcard src/*.s)
-OBJS_C := $(SRC_C:c=o)
-OBJS_S := $(SRC_S:s=o)
+SRCS := $(shell find $(SRC_DIRS) -name *.c -or -name *.s)
+OBJS := $(SRCS:%=$(BUILD_DIR)/%.o)
 
-all: $(OUTPUT)/$(IMAGE)
+INC_DIRS := $(shell find $(SRC_DIRS) -type d)
+INC_FLAGS := $(addprefix -I,$(INC_DIRS))
 
-%.o: %.s
-	$(CC) $(CFLAGS) -c $< -o $@
+CFLAGS = $(INC_FLAGS) -mcpu=cortex-a53 -O0 -nostdlib -ffreestanding
+LDFLAGS = -L/gnu_toolchain/aarch64-elf/lib/ -lc -L/gnu_toolchain/lib/gcc/aarch64-elf/8.3.0/ -lgcc
 
-%.o: %.c
-	$(CC) $(CFLAGS) -c $< -o $@
-
-$(OUTPUT)/$(IMAGE): $(OBJS_S) $(OBJS_C)
-	$(LD) -nostdlib -nostartfiles $(OBJS_S) $(OBJS_C) -T linker.ld -o $(OUTPUT)/$(ELF)
+$(BUILD_DIR)/$(TARGET_EXEC): $(OBJS)
+	$(LD) $(OBJS) $(LDFLAGS) -T linker.ld -o $(OUTPUT)/$(ELF)
 	$(OBJCOPY) -O binary $(OUTPUT)/$(ELF) $(OUTPUT)/$(IMAGE)
 	$(OBJDUMP) -D $(OUTPUT)/$(ELF) > $(OUTPUT)/kernel8.lss
 	$(OBJDUMP) -s $(OUTPUT)/$(ELF) > $(OUTPUT)/kernel8.dump
 
+# assembly
+$(BUILD_DIR)/%.s.o: %.s
+	$(MKDIR_P) $(dir $@)
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# c source
+$(BUILD_DIR)/%.c.o: %.c
+	$(MKDIR_P) $(dir $@)
+	$(CC) $(CFLAGS) -c $< -o $@
+
+.PHONY: clean
+
 clean:
-	rm -r src/*.o $(OUTPUT)/*.lss $(OUTPUT)/*.dump $(OUTPUT)/*.elf >/dev/null 2>/dev/null || true
+	$(RM) -r $(BUILD_DIR)
+
+
+MKDIR_P ?= mkdir -p

@@ -1,6 +1,6 @@
 /**
-*   This file is part of computer_architecture_labs
-*   (https://github.com/rromanotero/computer_architecture_labs).
+*   This file is part of os_labs
+*   (https://github.com/rromanotero/os_labs).
 *
 *   Copyright (c) 2019 Rafael Roman Otero.
 *
@@ -46,7 +46,7 @@
 
 #include <stdint.h>
 #include "uart.h"
-#include "gpio.h"
+#include "../gpio/gpio.h"
 
 /* Auxilary mini UART registers */
 #define AUX_ENABLE      ((volatile unsigned int*)(MMIO_BASE+0x00215004))
@@ -107,6 +107,21 @@ void uart_puthex_64_bits(uint64_t d) {
 }
 
 /**
+ * Display a binary value in hexadecimal
+ */
+void uart_puthex_32_bits(uint32_t d) {
+    unsigned int n;
+    int c;
+    for(c=28;c>=0;c-=4) {
+        // get highest tetrad
+        n=(d>>c)&0xF;
+        // 0-9 => '0'-'9', 10-15 => 'A'-'F'
+        n+=n>9?0x37:0x30;
+        uart_putc(n);
+    }
+}
+
+/**
  * Send a character
  */
 void uart_putc( uint8_t c ) {
@@ -138,5 +153,31 @@ void uart_puts( uint8_t *s ) {
         if(*s=='\n')
             uart_putc('\r');
         uart_putc(*s++);
+    }
+}
+
+/**
+ * Dump memory
+ */
+void uart_dump(void *ptr)
+{
+    unsigned long a,b,d;
+    unsigned char c;
+    for(a=(unsigned long)ptr;a<(unsigned long)ptr+512;a+=16) {
+        uart_puthex_32_bits(a); uart_puts(": ");
+        for(b=0;b<16;b++) {
+            c=*((unsigned char*)(a+b));
+            d=(unsigned int)c;d>>=4;d&=0xF;d+=d>9?0x37:0x30;uart_putc(d);
+            d=(unsigned int)c;d&=0xF;d+=d>9?0x37:0x30;uart_putc(d);
+            uart_putc(' ');
+            if(b%4==3)
+                uart_putc(' ');
+        }
+        for(b=0;b<16;b++) {
+            c=*((unsigned char*)(a+b));
+            uart_putc(c<32||c>=127?'.':c);
+        }
+        uart_putc('\r');
+        uart_putc('\n');
     }
 }

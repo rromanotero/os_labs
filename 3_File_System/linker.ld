@@ -1,6 +1,6 @@
 /**
-*   This file is part of computer_architecture_labs
-*   (https://github.com/rromanotero/computer_architecture_labs).
+*   This file is part of os_labs
+*   (https://github.com/rromanotero/os_labs).
 *
 *   Copyright (c) 2019 Rafael Roman Otero.
 *
@@ -62,7 +62,7 @@ SECTIONS
 
 		.stack (NOLOAD):
       {
-          . = ALIGN(8);
+          . = ALIGN(16);  /* 64-bit APCS requires 128-bit stack alignment */
           __stack_start = .;
           . = . + __stack_size__;
           __stack_end = .;
