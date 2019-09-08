@@ -34,7 +34,7 @@ HINT:
 
 ### Solution sample for this Lab
 ##### QEMU
-```bash
+```ba)sh
 qemu-system-aarch64 -M raspi3 -kernel .\3_HAL_and_Fonts\output\kernel8.img -serial stdio -serial null            
 Zoom Out
 Zoom In
@@ -42,7 +42,11 @@ Zoom In
 Zoom In
 Zoom Out
 ```
-##### PI 3
-  <img src="https://github.com/rromanotero/os_labs/blob/master/3_HAL_and_Fonts/images/lab_solution.jpg" width="600"/>
 
-  Solution demoes here:
+<img src="https://github.com/rromanotero/os_labs/blob/master/3_HAL_and_Fonts/images/lab_solution.jpg" width="620"/>
+
+Solution demo here: [https://youtu.be/KXhRCAMopFM](Lab 3 - HAL and Fonts (Demo Solution))
+
+##### PI 3
+
+Solution demo here: [https://youtu.be/zghl6RQ6Fqo](Lab 3 - HAL and Fonts (Demo Solution 2))
