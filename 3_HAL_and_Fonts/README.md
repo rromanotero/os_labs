@@ -14,18 +14,17 @@ Mimicking the solution demo:
 2. (2 pts) Get the fonts to scale up and down  
 3. (2 pts) Get hal_video_puts to start in from the top when reaching the end of the screen
            but not without first asking for "Enter to continue".
+HINT:
+    - Attention to detail is important (not only on this, but in any complex enough software system). It's the difference between catastrophe and sleeping soundly.
+    - Break down problems into subproblems and solve them one at a time
+    - Have a plan and test often
+    - If using lines for fonts, check [Bitmap/Bresenham's line algorithm](https://rosettacode.org/wiki/Bitmap/Bresenham%27s_line_algorithm#C).
 
 ### Deliverables
 1. A screenshot of the output (for task 1)
 2. A very short video of the output (for task 2)
 3. hal_video.c, hal.h, fonts.c, fonts.h
 (Do not write code anywhere else, or I won;t be able to test it)
-
-HINT:
-    - Attention to detail is important (not only on this, but in any complex enough software system). It's the difference between catastrophe and sleeping soundly.
-    - Break down problems into subproblems and solve them one at a time
-    - Have a plan and test often
-    - If using lines for fonts, check [Bitmap/Bresenham's line algorithm](https://rosettacode.org/wiki/Bitmap/Bresenham%27s_line_algorithm#C).
 
 
 ### Resources on the WEB
