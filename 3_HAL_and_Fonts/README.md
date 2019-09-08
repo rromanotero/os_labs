@@ -12,7 +12,7 @@ Upon completion of this lab, the student will be able to:
 Mimicking the solution demo:
 1. (6 pts) Print Alice in Wonderland's excerpt (use different colours as shown in the demo)
 2. (2 pts) Get the fonts to scale up and down  
-3. (2 pts) Get hal_video_puts to rewind when reaching the end of the screen
+3. (2 pts) Get hal_video_puts to start in from the top when reaching the end of the screen
            but not without first asking for "Enter to continue".
 
 ### Deliverables
@@ -22,10 +22,10 @@ Mimicking the solution demo:
 (Do not write code anywhere else, or I won;t be able to test it)
 
 HINT:
-    - Attention to detail is important (not only on this, but in any complex enough system)
+    - Attention to detail is important (not only on this, but in any complex enough software system). It's the difference between catastrophe and sleeping soundly.
     - Break down problems into subproblems and solve them one at a time
     - Have a plan and test often
-    - If using lines for fonts, check [https://rosettacode.org/wiki/Bitmap/Bresenham%27s_line_algorithm#C](Bitmap/Bresenham's line algorithm).
+    - If using lines for fonts, check [Bitmap/Bresenham's line algorithm](https://rosettacode.org/wiki/Bitmap/Bresenham%27s_line_algorithm#C).
 
 
 ### Resources on the WEB
@@ -45,8 +45,8 @@ Zoom Out
 
 <img src="https://github.com/rromanotero/os_labs/blob/master/3_HAL_and_Fonts/images/lab_solution.jpg" width="620"/>
 
-Solution demo here: [https://youtu.be/KXhRCAMopFM](Lab 3 - HAL and Fonts (Demo Solution))
+Solution demo here: [Lab 3 - HAL and Fonts (Demo Solution)](https://youtu.be/KXhRCAMopFM)
 
 ##### PI 3
 
-Solution demo here: [https://youtu.be/zghl6RQ6Fqo](Lab 3 - HAL and Fonts (Demo Solution 2))
+Solution demo here: [Lab 3 - HAL and Fonts (Demo Solution 2)](https://youtu.be/zghl6RQ6Fqo)
