@@ -10,7 +10,7 @@ Upon completion of this lab, the student will be able to:
 
 ### Tasks
 Mimicking the solution demo:
-1. (6 pts) Print Alice in Wonderland's excerpt (use different colours as shown in the demo) 
+1. (6 pts) Print Alice in Wonderland's excerpt (use different colours as shown in the demo)
 2. (2 pts) Get the fonts to scale up and down  
 3. (2 pts) Get hal_video_puts to rewind when reaching the end of the screen
            but not without first asking for "Enter to continue".
@@ -43,4 +43,4 @@ Zoom In
 Zoom Out
 ```
 ##### PI 3
-  <img src="https://github.com/rromanotero/os_labs/blob/master/3_HAL_and_Fonts/images/lab_solution.png" width="300"/>
+  <img src="https://github.com/rromanotero/os_labs/blob/master/3_HAL_and_Fonts/images/lab_solution.jpg" width="300"/>
