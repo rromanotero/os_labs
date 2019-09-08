@@ -49,4 +49,6 @@ Solution demo here: [Lab 3 - HAL and Fonts (Demo Solution)](https://youtu.be/KXh
 
 ##### PI 3
 
+<img src="https://github.com/rromanotero/os_labs/blob/master/3_HAL_and_Fonts/images/lab_solution_pi.jpg" width="620"/>
+
 Solution demo here: [Lab 3 - HAL and Fonts (Demo Solution 2)](https://youtu.be/zghl6RQ6Fqo)
