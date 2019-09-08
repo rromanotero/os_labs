@@ -23,7 +23,7 @@ HINT:
 
 ### Deliverables
 1. A screenshot of the output (for task 1)
-2. A very short video of the output (for task 2 and 3)
+2. A very short video of the output (for tasks 2 and 3)
 3. hal_video.c, hal.h, fonts.c, fonts.h
 (Do not write code anywhere else, or I won;t be able to test it)
 
