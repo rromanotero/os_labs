@@ -43,4 +43,6 @@ Zoom In
 Zoom Out
 ```
 ##### PI 3
-  <img src="https://github.com/rromanotero/os_labs/blob/master/3_HAL_and_Fonts/images/lab_solution.jpg" width="300"/>
+  <img src="https://github.com/rromanotero/os_labs/blob/master/3_HAL_and_Fonts/images/lab_solution.jpg" width="600"/>
+
+  Solution demoes here:
