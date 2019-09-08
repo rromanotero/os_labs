@@ -44,8 +44,7 @@
  *
  */
 
-void uart_init( void );
-void uart_putc( uint8_t c );
-uint8_t uart_getc( void );
-void uart_puts( uint8_t *s );
-void uart_puthex_64_bits( uint64_t );
+void delays_wait_cycles(unsigned int n);
+void delays_wait_microsecs(unsigned int n);
+unsigned long get_system_timer();
+void delays_wait_msec_st(unsigned int n);

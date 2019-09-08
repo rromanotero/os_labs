@@ -34,4 +34,4 @@ qemu-system-aarch64 -M raspi3 -kernel .\1_Hello_World\output\kernel8.img -serial
 What is white and can't climb a tree?
 ```
 ##### PI 3
-<img src="https://github.com/rromanotero/computer_architecture_labs/blob/master/1_Hello_World/images/lab1_solution.png" width="380"/>
+<img src="https://github.com/rromanotero/os_labs/blob/master/1_Hello_World/images/lab1_solution.png" width="380"/>

@@ -57,7 +57,7 @@ _print_collatz:
 ### Solution sample for this Lab
 ##### QEMU
 ```bash
-qemu-system-aarch64 -M raspi3 -kernel .\7_ISA\output\kernel8.img -serial null -serial stdio
+qemu-system-aarch64 -M raspi3 -kernel .\2_ISA\output\kernel8.img -serial null -serial stdio
 GCD(930,180):
 000000000000001E
 
@@ -72,4 +72,4 @@ Collatz Sequence for 21:
 0000000000000001
 ```
 ##### PI 3
-  <img src="https://github.com/rromanotero/computer_architecture_labs/blob/master/7_ISA/images/lab7_solution.png" width="300"/>
+  <img src="https://github.com/rromanotero/os_labs/blob/master/7_ISA/images/lab7_solution.png" width="300"/>

@@ -62,13 +62,9 @@ SECTIONS
 
 		.stack (NOLOAD):
       {
-          . = ALIGN(8);
+          . = ALIGN(16);  /* 64-bit APCS requires 128-bit stack alignment */
           __stack_start = .;
           . = . + __stack_size__;
           __stack_end = .;
       } > ram
-
-		/DISCARD/ : { *(.comment) *(.gnu*) *(.note*) *(.eh_frame*) }
 }
-
-__bss_size = (__bss_end - __bss_start)>>3;

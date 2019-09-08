@@ -19,15 +19,41 @@
 *
 **/
 
-.section ".boot"
-.align 2
+#include "hal.h"
+#include "uart.h"
 
-.global _boot_entry_point
-_boot_entry_point:
-    ldr     x1, =__stack_end 	//Init stack
-    mov     sp, x1
+/*
+*  HAL IO Serial Init
+*/
+uint32_t hal_io_serial_init( void ){
+	uart0_init();			
+	return HAL_SUCCESS;
+}
 
-    bl main                   //Jump to main
-halt:
-    wfe                       //Low power mode
-    b halt
+/*
+*  HAL IO Serial Puts
+*/
+void hal_io_serial_puts( SerialId serial_id, uint8_t* str){
+	while(*str)
+		hal_io_serial_putc( serial_id, *str++);
+}
+
+/*
+*  HAL IO Serial Putc
+*/
+void hal_io_serial_putc( SerialId id, uint8_t c ){
+	switch(id){
+		case SerialA: uart0_putc(c); break;
+		case SerialB: /* Unimplemented*/ break;
+	}
+}
+
+/*
+*  HAL IO Serial Getc
+*/
+uint8_t hal_io_serial_getc( SerialId id ){
+	switch(id){
+		case SerialA: return uart0_getc();
+		case SerialB: /* Unimplemented*/ return 0;
+	}
+}

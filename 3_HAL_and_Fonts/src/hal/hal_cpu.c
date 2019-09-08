@@ -18,16 +18,16 @@
 *   along with this program.  If not, see <https://www.gnu.org/licenses/>.
 *
 **/
+#include <stdint.h>
+#include "delays.h"
 
-.section ".boot"
-.align 2
-
-.global _boot_entry_point
-_boot_entry_point:
-    ldr     x1, =__stack_end 	//Init stack
-    mov     sp, x1
-
-    bl main                   //Jump to main
-halt:
-    wfe                       //Low power mode
-    b halt
+/**
+*	CPU Delays
+*
+*	Busy-waiting delay
+*
+*	@param delay_in_ms delay in milliseconds
+*/
+void hal_cpu_delay(uint32_t delay_in_ms){
+	delays_wait_microsecs(delay_in_ms*1000);
+}

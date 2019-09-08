@@ -52,4 +52,4 @@ Swap endianness of 0x0102030405060708
 00000000FFFFFFFF
 ```
 ##### PI 3
-  <img src="https://github.com/rromanotero/computer_architecture_labs/blob/master/2_Binary_and_Hex/images/lab2_solution.png" width="380"/>
+  <img src="https://github.com/rromanotero/os_labs/blob/master/2_Binary_and_Hex/images/lab2_solution.png" width="380"/>

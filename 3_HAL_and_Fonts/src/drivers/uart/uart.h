@@ -43,9 +43,12 @@
  * DEALINGS IN THE SOFTWARE.
  *
  */
+#include <stdint.h>
 
-void uart_init( void );
-void uart_putc( uint8_t c );
-uint8_t uart_getc( void );
-void uart_puts( uint8_t *s );
-void uart_puthex_64_bits( uint64_t );
+void uart0_init( void );
+void uart0_putc( uint8_t c );
+uint8_t uart0_getc( void );
+void uart0_puts( uint8_t *s );
+void uart0_puthex_64_bits( uint64_t );
+void uart0_puthex_32_bits( uint32_t );
+void uart0_dump( void* );

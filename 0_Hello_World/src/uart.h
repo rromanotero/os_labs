@@ -1,6 +1,6 @@
 /**
-*   This file is part of computer_architecture_labs
-*   (https://github.com/rromanotero/computer_architecture_labs).
+*   This file is part of os_labs
+*   (https://github.com/rromanotero/os_labs).
 *
 *   Copyright (c) 2019 Rafael Roman Otero.
 *

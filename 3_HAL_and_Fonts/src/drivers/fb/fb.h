@@ -1,24 +1,3 @@
-/**
-*   This file is part of os_labs
-*   (https://github.com/rromanotero/os_labs).
-*
-*   Copyright (c) 2019 Rafael Roman Otero.
-*
-*   This program is free software: you can redistribute it and/or modify
-*   it under the terms of the GNU General Public License as published by
-*   the Free Software Foundation, either version 3 of the License, or
-*   (at your option) any later version.
-*
-*   This program is distributed in the hope that it will be useful,
-*   but WITHOUT ANY WARRANTY; without even the implied warranty of
-*   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-*   GNU General Public License for more details.
-*
-*   You should have received a copy of the GNU General Public License
-*   along with this program.  If not, see <https://www.gnu.org/licenses/>.
-*
-**/
-
 /*
  * Copyright (C) 2018 bzt (bztsrc@github)
  *
@@ -44,8 +23,6 @@
  *
  */
 
-void uart_init( void );
-void uart_putc( uint8_t c );
-uint8_t uart_getc( void );
-void uart_puts( uint8_t *s );
-void uart_puthex_64_bits( uint64_t );
+#include <stdint.h>
+
+uint32_t* fb_init();
