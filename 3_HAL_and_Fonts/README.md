@@ -9,11 +9,11 @@ Upon completion of this lab, the student will be able to:
 4. Using the framebuffer, write fonts and software that prints to the screen
 
 ### Tasks
-1. Print an excerpt of Alice in Wonderland as shown in the solution
-        - (6 pts) Print Alice in Wonderland (using the colours in the solution demo)
-        - (2 pts) Get the fonts to scale up and down
-        - (2 pts) Get hal_video_puts to rewind when reaching the end of the screen
-                  but not without first asking for "Enter to continue".
+Mimicking the solution demo:
+1. (6 pts) Print Alice in Wonderland's excerpt (use different colours as shown in the demo) 
+2. (2 pts) Get the fonts to scale up and down  
+3. (2 pts) Get hal_video_puts to rewind when reaching the end of the screen
+           but not without first asking for "Enter to continue".
 
 ### Deliverables
 1. A screenshot of the output (for task 1)
@@ -21,7 +21,11 @@ Upon completion of this lab, the student will be able to:
 3. hal_video.c, hal.h, fonts.c, fonts.h
 (Do not write code anywhere else, or I won;t be able to test it)
 
-HINT: IF using lines, check Brasenhams Algorithm.
+HINT:
+    - Attention to detail is important (not only on this, but in any complex enough system)
+    - Break down problems into subproblems and solve them one at a time
+    - Have a plan and test often
+    - If using lines for fonts, check [https://rosettacode.org/wiki/Bitmap/Bresenham%27s_line_algorithm#C](Bitmap/Bresenham's line algorithm).
 
 
 ### Resources on the WEB
@@ -39,4 +43,4 @@ Zoom In
 Zoom Out
 ```
 ##### PI 3
-  <img src="https://github.com/rromanotero/os_labs/blob/master/7_ISA/images/lab7_solution.png" width="300"/>
+  <img src="https://github.com/rromanotero/os_labs/blob/master/3_HAL_and_Fonts/images/lab_solution.png" width="300"/>
