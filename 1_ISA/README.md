@@ -72,4 +72,4 @@ Collatz Sequence for 21:
 0000000000000001
 ```
 ##### PI 3
-  <img src="https://github.com/rromanotero/os_labs/blob/master/2_ISA/images/lab_solution.png" width="300"/>
+  <img src="https://github.com/rromanotero/os_labs/blob/master/1_ISA/images/lab_solution.png" width="300"/>
