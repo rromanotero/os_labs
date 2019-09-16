@@ -14,7 +14,7 @@ Upon completion of this lab, the student will be able to:
 3. (4 pts) Write the assembly routine \_arithmetic_print_collatz_sequence. See [Collatz sequence algorithm here](http://mathworld.wolfram.com/CollatzProblem.html).
 
 HINT:
-To print the Collatz sequence from assembly itself use:
+To print the Collatz sequence from assembly use:
 ```asm
 mov x0, 7                     //uart_puthex_64_bits(7)
 ldr x5, =uart_puthex_64_bits
