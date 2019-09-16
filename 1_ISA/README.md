@@ -1,10 +1,11 @@
-# Lab 2 - ISA
+# Lab 1 - ISA
 
 ### Objectives
 Upon completion of this lab, the student will be able to:
 
 1. Write basic assembly with conditional branching and loops
-2. Disassemble machine code that uses common instructions such as B, MOV, and ADD
+2. Write assembly subroutines that take and return values from C code
+3. Disassemble machine code that uses common instructions such as B, MOV, and ADD
 
 ### Tasks
 (src/arithmetic.s contains empty subroutines)
