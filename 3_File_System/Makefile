@@ -60,6 +60,8 @@ $(BUILD_DIR)/%.c.o: %.c
 
 clean:
 	$(RM) -r $(BUILD_DIR)
-
+	$(RM) $(OUTPUT)/$(ELF)
+	$(RM) $(OUTPUT)/kernel8.lss
+	$(RM) $(OUTPUT)/kernel8.dump
 
 MKDIR_P ?= mkdir -p
