@@ -13,7 +13,7 @@ Upon completion of this lab, the student will be able to:
 2. (2 pts) Go through the disassembly of \_arithmetic_gcd (in output/kernel8.lss) and manually translate every instruction to binary. In the translation, highlight the instruction's opcode.
 3. (4 pts) Write the assembly routine \_arithmetic_print_collatz_sequence. See [Collatz sequence algorithm here](http://mathworld.wolfram.com/CollatzProblem.html).
 
-NOTE:
+    NOTE:
     - **Only edit arithmetic.s**
     - For full marks use [.req](https://stackoverflow.com/questions/39554589/how-to-give-a-different-name-to-a-register-in-gnu-arm-assembler) to make more readable assembly, and use descriptive label names
 
