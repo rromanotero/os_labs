@@ -43,7 +43,7 @@ Zoom In
 Zoom Out
 ```
 
-<img src="https://github.com/rromanotero/os_labs/blob/master/3_HAL_and_Fonts/images/lab_solution.jpg" width="620"/>
+<img src="https://github.com/rromanotero/os_labs/blob/master/2_HAL_and_Fonts/images/lab_solution.jpg" width="620"/>
 
 Solution demo here: [Lab 3 - HAL and Fonts (Demo Solution)](https://youtu.be/KXhRCAMopFM)
 
