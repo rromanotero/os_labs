@@ -15,7 +15,7 @@ Upon completion of this lab, the student will be able to:
 
     NOTE:
     - **Only edit arithmetic.s**
-    - For full marks use [.req](https://stackoverflow.com/questions/39554589/how-to-give-a-different-name-to-a-register-in-gnu-arm-assembler) to make more readable assembly, and use descriptive label names
+    - For full marks use [the .req directive](https://stackoverflow.com/questions/39554589/how-to-give-a-different-name-to-a-register-in-gnu-arm-assembler) to write readable assembly, and use descriptive label names
 
 HINT:
 To print the Collatz sequence from assembly use:
