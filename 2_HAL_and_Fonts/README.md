@@ -9,7 +9,6 @@ Upon completion of this lab, the student will be able to:
 4. Using the framebuffer, write fonts and software that prints to the screen
 
 ### Tasks
-Mimicking the solution demo:
 1. (8 pts) Print Alice in Wonderland's excerpt (use different colours as shown in the demo)
     - For full marks implement all letters and numbers (you can skip symbols).
 2. (2 pts) Get the fonts to scale up and down (as shown in the demo)
