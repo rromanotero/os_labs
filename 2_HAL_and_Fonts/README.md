@@ -31,7 +31,7 @@ Notes and Hints:
 0. hal_video.c, fonts.c, and fonts.h
 1. A screenshot of the output (for task 1).
 2. A few Screenshots showing text zooming in and out (for task 2).
-3. A few Screenshots showing text wrapping around to the beginning (for BONUS task )
+3. A few Screenshots showing text wrapping around to the beginning (for task 2)
 
 
 ### Resources on the WEB
