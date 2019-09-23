@@ -19,7 +19,7 @@ BONUS
            but not without first asking for "Enter to continue" in RED colour. (as shown in demo)
 
 
-### Notes and Hints
+Notes and Hints
     - Only edit hal_video.c, fonts.c, and fonts.h
     - A font can be specified as a bitmap and you can have different sizes of bitmaps for different
       font sizes.
