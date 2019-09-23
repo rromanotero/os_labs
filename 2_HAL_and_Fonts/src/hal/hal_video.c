@@ -68,6 +68,6 @@ void hal_video_clear( void ){
 ///////////////////////////////
 /////// DRIVER INTERFACE
 //////////////////////////////
-void hal_video_put_pixel_raw( uint32_t raw_pos, uint32_t color ){
+void put_pixel_raw( uint32_t raw_pos, uint32_t color ){
     *(fb + raw_pos) = color; //<<<-- Note that addition is pointer arithmetic!
 }

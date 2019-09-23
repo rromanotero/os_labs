@@ -59,6 +59,9 @@ void main(){
         }
     }
 
+	for(uint32_t i=0; i<600; i++)
+		put_pixel_raw( i, 0xFFFFFFFF );
+
     while(true){
         if(changed){
             hal_video_clear();
