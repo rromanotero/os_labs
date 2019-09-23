@@ -13,9 +13,7 @@ Mimicking the solution demo:
 1. (8 pts) Print Alice in Wonderland's excerpt (use different colours as shown in the demo)
     - For full marks implement all letters and numbers (you can skip symbols).
 2. (2 pts) Get the fonts to scale up and down (as shown in the demo)
-
-Bonus
-3. (1 pts) Get hal_video_puts to start over from the top when reaching the end of the screen
+3. BONUS  (1 pts) Get hal_video_puts to start over from the top when reaching the end of the screen
            but not without first asking for "Enter to continue" in RED colour. (as shown in demo)
 
 
