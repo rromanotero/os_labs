@@ -20,13 +20,13 @@
 **/
 
 #include "hal.h"
-#include "uart.h"
+#include "../drivers/uart/uart.h"
 
 /*
 *  HAL IO Serial Init
 */
 uint32_t hal_io_serial_init( void ){
-	uart0_init();			
+	uart0_init();
 	return HAL_SUCCESS;
 }
 

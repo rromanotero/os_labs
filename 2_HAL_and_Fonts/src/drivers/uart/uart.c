@@ -46,9 +46,9 @@
 
 #include <stdint.h>
 #include "uart.h"
-#include "gpio.h"
-#include "mbox.h"
-#include "delays.h"
+#include "../gpio/gpio.h"
+#include "../mbox/mbox.h"
+#include "../delays/delays.h"
 
 
 /* PL011 UART registers */

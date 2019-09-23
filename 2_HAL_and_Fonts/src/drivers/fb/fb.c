@@ -43,7 +43,7 @@
  * DEALINGS IN THE SOFTWARE.
  *
  */
-#include "mbox.h"
+#include "../mbox/mbox.h"
 #include "fb.h"
 
 static unsigned int width, height, pitch;

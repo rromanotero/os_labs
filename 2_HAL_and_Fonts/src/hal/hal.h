@@ -4,7 +4,7 @@
 
 #include <stdbool.h>
 #include <stdint.h>
-#include "system.h"
+#include "../system.h"
 
 #define HAL_SUCCESS  0
 #define HAL_FAILED  1
@@ -40,6 +40,7 @@ void hal_io_serial_puts( SerialId, uint8_t* );
 #define VIDEO_COLOR_BLUE    0x00000000
 #define VIDEO_COLOR_RED     0x00000000
 
+void hal_video_put_pixel_raw( uint32_t, uint32_t);
 uint32_t hal_video_init( void );
 void hal_video_clear( void );
 void hal_video_putc_x_y( uint32_t x, uint32_t y, uint8_t c, uint32_t size, VideoColor color );

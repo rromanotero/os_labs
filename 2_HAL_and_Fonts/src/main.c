@@ -22,7 +22,7 @@
 #include <stdint.h>
 #include <stddef.h>
 #include "system.h"
-#include "hal.h"
+#include "hal/hal.h"
 #include "alice.h"
 
 

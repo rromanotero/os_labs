@@ -3,11 +3,10 @@
 #include <stdbool.h>
 #include "hal.h"
 #include "fonts.h"
-#include "fb.h"
+#include "../drivers/fb/fb.h"
 
 #define NULL 0
 
-static inline void put_pixel_raw( uint32_t, uint32_t );
 
 static uint32_t* fb; //Framebuffer pointer
 
@@ -31,6 +30,8 @@ uint32_t hal_video_init( void ){
 */
 void hal_video_puts( uint8_t* string, uint32_t size, VideoColor color ){
     //Solution goes here
+
+
 }
 
 /*
@@ -67,6 +68,6 @@ void hal_video_clear( void ){
 ///////////////////////////////
 /////// DRIVER INTERFACE
 //////////////////////////////
-static inline void put_pixel_raw( uint32_t raw_pos, uint32_t color ){
+void hal_video_put_pixel_raw( uint32_t raw_pos, uint32_t color ){
     *(fb + raw_pos) = color; //<<<-- Note that addition is pointer arithmetic!
 }
