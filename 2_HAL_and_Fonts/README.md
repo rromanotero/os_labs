@@ -31,6 +31,25 @@ Notes and Hints:
 2. A few Screenshots showing text zooming in and out (for task 2).
 3. A few Screenshots showing text wrapping around to the beginning (for task 2)
 
+### Hints
+Try this, see what happens
+```c
+for(uint32_t i=0; i<SYSTEM_SCREEN_WIDTH*SYSTEM_SCREEN_LENGTH; i++)
+    put_pixel_raw( i, 0xFFFFFFFF );
+```
+If you're keeping X,Y coordinates instead of raw linear pixel locations, this is how I convert an x,y coordinate to a linear (raw) location
+```c
+uint32_t x_y_to_raw(uint32_t x, uint32_t y){
+	return y*SYSTEM_SCREEN_WIDTH + x;
+}
+```
+This is my absolute value function (you'll need this if you're doing lines)
+```c
+int32_t abs(int32_t v){
+		if(v<0) return v*(-1);
+		else return v;
+}
+```
 
 ### Resources on the WEB
 - [The Font Magicians - Computerphile](https://www.youtube.com/watch?v=jAdspOtgciQ)
