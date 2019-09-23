@@ -20,13 +20,13 @@ BONUS
 
 
 Notes and Hints:
-    - Only edit hal_video.c, fonts.c, and fonts.h
-    - A font can be specified as a bitmap and you can have different sizes of bitmaps for different
+- Only edit hal_video.c, fonts.c, and fonts.h
+- A font can be specified as a bitmap and you can have different sizes of bitmaps for different
       font sizes.
-    - Alternatively, you can use lines for fonts, check [Bitmap/ Bresenham's line algorithm](https://rosettacode.org/wiki/Bitmap/Bresenham%27s_line_algorithm#C).
-    - There's better methods for drawing resizable letters (feel free to use any).
-    - Break down problems into subproblems and those subproblems into subproblems, solve them one at a time
-    - Abstraction is useful in problem solving! For instance, create a Font type.
+- Alternatively, you can use lines for fonts, check [Bitmap/ Bresenham's line algorithm](https://rosettacode.org/wiki/Bitmap/Bresenham%27s_line_algorithm#C).
+- There's better methods for drawing resizable letters (feel free to use any).
+- Break down problems into subproblems and those subproblems into subproblems, solve them one at a time
+- Abstraction is useful in problem solving! For instance, create a Font type.
 
 
 ### Deliverables
