@@ -1,4 +1,4 @@
-# Lab 3 - HAL and Fonts
+# Lab 2 - HAL and Fonts
 
 ### Objectives
 Upon completion of this lab, the student will be able to:
@@ -10,22 +10,30 @@ Upon completion of this lab, the student will be able to:
 
 ### Tasks
 Mimicking the solution demo:
-1. (6 pts) Print Alice in Wonderland's excerpt (use different colours as shown in the demo)
-2. (2 pts) Get the fonts to scale up and down  
-3. (2 pts) Get hal_video_puts to start in from the top when reaching the end of the screen
-           but not without first asking for "Enter to continue".
+1. (8 pts) Print Alice in Wonderland's excerpt (use different colours as shown in the demo)
+    - For full marks implement all letters and numbers (you can skip symbols).
+2. (2 pts) Get the fonts to scale up and down (as shown in the demo)
+
+Bonus
+3. (1 pts) Get hal_video_puts to start over from the top when reaching the end of the screen
+           but not without first asking for "Enter to continue" in RED colour. (as shown in demo)
+
+
 HINT:
-    - If using lines for fonts, check [Bitmap/ Bresenham's line algorithm](https://rosettacode.org/wiki/Bitmap/Bresenham%27s_line_algorithm#C).
-    - Attention to detail is important (not only on this, but in any complex enough software system). It's the difference between catastrophe and sleeping soundly.
-    - Break down problems into subproblems and solve them one at a time
-    - Have a plan and test often
+    - Only edit hal_video.c, fonts.c, and fonts.h
+    - A font can be specified as a bitmap and you can have different sizes of bitmaps for different
+      font sizes.
+    - Alternatively, you can use lines for fonts, check [Bitmap/ Bresenham's line algorithm](https://rosettacode.org/wiki/Bitmap/Bresenham%27s_line_algorithm#C).
+    - There's better methods for drawing resizable letters (feel free to use any).
+    - Break down problems into subproblems and those subproblems into subproblems, solve them one at a time
+    - Abstraction is useful in problem solving! For instance, create a Font type.
 
 
 ### Deliverables
-1. A screenshot of the output (for task 1)
-2. A very short video of the output (for tasks 2 and 3)
-3. hal_video.c, hal.h, fonts.c, fonts.h
-(Do not write code anywhere else, or I won;t be able to test it)
+0. hal_video.c, fonts.c, and fonts.h
+1. A screenshot of the output (for task 1).
+2. A few Screenshots showing text zooming in and out (for task 2).
+3. A few Screenshots showing text wrapping around to the beginning (for task 3 bonus)
 
 
 ### Resources on the WEB

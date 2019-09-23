@@ -6,7 +6,7 @@
 
 
 void fonts_init(void){
-	//Assuming you have something to init. Maybe not
+	//Solution goes here
 }
 
-//... any other functions you may have
+//Solution goes here
