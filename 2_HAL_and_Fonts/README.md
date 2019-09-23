@@ -15,7 +15,6 @@ Upon completion of this lab, the student will be able to:
     - (2 pts) Get the fonts to scale up and down (as shown in the demo)
     - (1 pts) Get hal_video_puts to start over from the top when reaching the end of the screen but not without first asking for "Enter to continue" in RED colour. (as shown in demo)
 
-
 Notes and Hints:
 - Only edit hal_video.c, fonts.c, and fonts.h
 - A font can be specified as a bitmap and you can have different sizes of bitmaps for different
@@ -55,7 +54,7 @@ Solution demo here: [Lab 3 - HAL and Fonts (Demo Solution)](https://youtu.be/Hc1
 
 ##### PI 3
 
-This is how it looks in the PI, when printing an excerpt from Alice in Wonderland.
+This is how it looks in the PI, when printing an excerpt from Alice in Wonderland (THIS IS JUST A DEMO! YOU DO NOT NEED TO DO THIS).
 
 <img src="https://github.com/rromanotero/os_labs/blob/master/2_HAL_and_Fonts/images/lab_solution_pi.jpg" width="620"/>
 
