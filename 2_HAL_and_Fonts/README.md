@@ -13,7 +13,9 @@ Mimicking the solution demo:
 1. (8 pts) Print Alice in Wonderland's excerpt (use different colours as shown in the demo)
     - For full marks implement all letters and numbers (you can skip symbols).
 2. (2 pts) Get the fonts to scale up and down (as shown in the demo)
-3. BONUS  (1 pts) Get hal_video_puts to start over from the top when reaching the end of the screen
+
+BONUS
+1. (1 pts) Get hal_video_puts to start over from the top when reaching the end of the screen
            but not without first asking for "Enter to continue" in RED colour. (as shown in demo)
 
 
@@ -31,7 +33,7 @@ HINT:
 0. hal_video.c, fonts.c, and fonts.h
 1. A screenshot of the output (for task 1).
 2. A few Screenshots showing text zooming in and out (for task 2).
-3. A few Screenshots showing text wrapping around to the beginning (for task 3 bonus)
+3. A few Screenshots showing text wrapping around to the beginning (for BONUS task )
 
 
 ### Resources on the WEB
