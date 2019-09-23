@@ -6,6 +6,9 @@
 *.ko
 *.obj
 *.elf
+*.img
+*.lss
+*.dump
 
 # Linker output
 *.ilk
