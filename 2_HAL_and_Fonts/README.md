@@ -9,12 +9,11 @@ Upon completion of this lab, the student will be able to:
 4. Using the framebuffer, write fonts and software that prints to the screen
 
 ### Tasks
-1. (8 pts) Print Alice in Wonderland's excerpt (use different colours as shown in the demo)
-    - For full marks implement all letters and numbers (you can skip symbols).
+1. (8 pts) Print 12 characters (use different colours as shown in the demo)
+    - They can be different characters to the ones in the demo
 2. Pick one or the other, but not both:
     - (2 pts) Get the fonts to scale up and down (as shown in the demo)
-    - (1 pts) Get hal_video_puts to start over from the top when reaching the end of the screen
-           but not without first asking for "Enter to continue" in RED colour. (as shown in demo)
+    - (1 pts) Get hal_video_puts to start over from the top when reaching the end of the screen but not without first asking for "Enter to continue" in RED colour. (as shown in demo)
 
 
 Notes and Hints:
@@ -49,11 +48,14 @@ Zoom In
 Zoom Out
 ```
 
-<img src="https://github.com/rromanotero/os_labs/blob/master/2_HAL_and_Fonts/images/lab_solution.jpg" width="620"/>
+<img src="https://github.com/rromanotero/os_labs/blob/master/2_HAL_and_Fonts/images/lab_solution.png" width="620"/>
+<img src="https://github.com/rromanotero/os_labs/blob/master/2_HAL_and_Fonts/images/lab_solution_2.png" width="620"/>
 
-Solution demo here: [Lab 3 - HAL and Fonts (Demo Solution)](https://youtu.be/KXhRCAMopFM)
+Solution demo here: [Lab 3 - HAL and Fonts (Demo Solution)](https://youtu.be/Hc10FpHZZhk)
 
 ##### PI 3
+
+This is how it looks in the PI, when printing an excerpt from Alice in Wonderland.
 
 <img src="https://github.com/rromanotero/os_labs/blob/master/2_HAL_and_Fonts/images/lab_solution_pi.jpg" width="620"/>
 
