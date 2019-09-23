@@ -11,10 +11,9 @@ Upon completion of this lab, the student will be able to:
 ### Tasks
 1. (8 pts) Print Alice in Wonderland's excerpt (use different colours as shown in the demo)
     - For full marks implement all letters and numbers (you can skip symbols).
-2. (2 pts) Get the fonts to scale up and down (as shown in the demo)
-
-BONUS
-1. (1 pts) Get hal_video_puts to start over from the top when reaching the end of the screen
+2. Pick one or the other, but not both:
+    - (2 pts) Get the fonts to scale up and down (as shown in the demo)
+    - (1 pts) Get hal_video_puts to start over from the top when reaching the end of the screen
            but not without first asking for "Enter to continue" in RED colour. (as shown in demo)
 
 
