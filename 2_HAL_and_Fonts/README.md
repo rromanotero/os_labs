@@ -37,7 +37,7 @@ Notes and Hints:
 
 
 ### Resources on the WEB
--
+- [The Font Magicians - Computerphile](https://www.youtube.com/watch?v=jAdspOtgciQ)
 
 
 ### Solution sample for this Lab
