@@ -37,4 +37,4 @@ rm ./output/*.dump
     & "C:\Users\a01169587\Downloads\gcc-arm-8.3-2019.03-i686-mingw32-aarch64-elf.tar\gcc-arm-8.3-2019.03-i686-mingw32-aarch64-elf\bin\aarch64-elf-objdump" -s .\output\kernel8.img | Out-File -filepath output/kernel8.dump -Encoding ASCII
 
 
-& 'C:\Program Files\qemu\qemu-system-aarch64.exe' -M raspi3 -kernel output/kernel8.img -drive file=.\3_File_System\sd_card\sd_card.img,if=sd,format=raw -serial null -serial stdio
+& 'C:\Program Files\qemu\qemu-system-aarch64.exe' -M raspi3 -kernel output/kernel8.img -drive file=.\sd_card\sd_card.img,if=sd,format=raw -serial null -serial stdio
