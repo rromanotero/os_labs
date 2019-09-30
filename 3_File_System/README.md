@@ -24,7 +24,7 @@ Upon completion of this lab, the student will be able to:
 Notes and Hints:
 - One step at a time. Bit by bit.
 - Download the **SD Card image for this lab** [here](https://embedntks.com/comp4735/sd_card.img)
-- To tell QEMU to use the SD Card image as SD Card use (full command below) -drive file=.\3_File_System\sd_card\sd_card.img,if=sd,format=raw
+- To tell QEMU to use the SD Card image as SD Card use the "-drive" argument (full command below)
 - Use hal_sd_card_read_block and kprintf_hex_dump to inspect sectors
 - See Lecture and Labs
 
