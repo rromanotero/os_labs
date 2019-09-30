@@ -23,6 +23,8 @@ Upon completion of this lab, the student will be able to:
 
 Notes and Hints:
 - One step at a time. Bit by bit.
+- Download the **SD Card image for this lab** [here](https://embedntks.com/comp4735/sd_card.img)
+- To tell QEMU to use the SD Card image as SD Card use (full command below) -drive file=.\3_File_System\sd_card\sd_card.img,if=sd,format=raw
 - Use hal_sd_card_read_block and kprintf_hex_dump to inspect sectors
 - See Lecture and Labs
 
@@ -42,15 +44,17 @@ Notes and Hints:
 
 ### Solution sample for this Lab
 ##### QEMU
+Note the VOLUME NAME is COMP4735
+
 ```bash
-qemu-system-aarch64 -M raspi3 -kernel .\3_HAL_and_Fonts\output\kernel8.img -serial stdio -serial
+qemu-system-aarch64 -M raspi3 -kernel .\3_File_System\output\kernel8.img -drive file=.\3_File_System\sd_card\sd_card.img,if=sd,format=raw -serial stdio -serial null
 ```
 
-<img src="https://github.com/rromanotero/os_labs/blob/master/3_File_System/images/lab_solution.png" width="620"/>
+<img src="https://github.com/rromanotero/os_labs/blob/master/3_File_System/images/lab_solution.png" width="580"/>
 
 
 ##### PI 3
 
-Alice.txt is not getting printed. My guess is, since we only support 16 directory entries, Alice.txt is not part of the first 16.
+Alice.txt is not getting printed. My guess is, since we only support 16 directory entries, Alice.txt is not part of the first 16. Note BOOT is the VOLUME NAME, so we have the right partition!
 
-<img src="https://github.com/rromanotero/os_labs/blob/master/3_File_System/images/lab_solution_pi.jpg" width="620"/>
+<img src="https://github.com/rromanotero/os_labs/blob/master/3_File_System/images/lab_solution_pi.jpg" width="580"/>
