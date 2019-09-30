@@ -23,9 +23,9 @@
 
 #include <stdint.h>
 #include <stddef.h>
-#include "hal.h"
-#include "fat.h"
-#include "kprintf.h"
+#include "hal/hal.h"
+#include "fat/fat.h"
+#include "kprintf/kprintf.h"
 
 void wait_for_ten_secs(void);
 

@@ -45,9 +45,9 @@
  *
  */
 
-#include "gpio.h"
-#include "uart.h"
-#include "delays.h"
+#include "../gpio/gpio.h"
+#include "../uart/uart.h"
+#include "../delays/delays.h"
 #include "sd.h"
 
 #define EMMC_ARG2           ((volatile unsigned int*)(MMIO_BASE+0x00300000))

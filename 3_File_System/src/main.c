@@ -22,9 +22,9 @@
 #include <stdint.h>
 #include <stddef.h>
 #include "system.h"
-#include "hal.h"
-#include "fat.h"
-#include "kprintf.h"
+#include "hal/hal.h"
+#include "fat/fat.h"
+#include "kprintf/kprintf.h"
 
 void print_n_chars( uint8_t*, uint32_t );
 
@@ -65,7 +65,7 @@ void main(){
 	kprintf( "\n\r" );
 	kprintf( "\n\r" );
 
-	fat_read_file( "ALICE", buffer, 512 ); 
+	fat_read_file( "ALICE", buffer, 512 );
 	kprintf( "%s", buffer );
 
     while(true);

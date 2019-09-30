@@ -23,7 +23,7 @@
 #include <stdbool.h>
 #include "hal.h"
 #include "fonts.h"
-#include "fb.h"
+#include "../drivers/fb/fb.h"
 
 #define X_ORIGIN 	VIDEO_CHARACTER_WIDTH
 #define Y_ORIGIN    VIDEO_CHARACTER_HEIGHT*3

@@ -46,23 +46,20 @@
 #include <stdarg.h>
 #include <sys/cdefs.h>
 
-__BEGIN_DECLS
-
 void kprintf_hex_dump( uint8_t*, uint32_t, uint32_t, uint32_t);
 
-void kprintf(const char *format, ...) __PRINTFLIKE(1, 2);
+void kprintf(const char *format, ...);
 
-int snprintf(char *buf, size_t size, const char *format, ...) __PRINTFLIKE(3, 4);
+int snprintf(char *buf, size_t size, const char *format, ...);
 
 int vsnprintf(char *buf, size_t size, const char *format, va_list args);
 
 typedef void (*vcprintf_callback_t)(char c, void *state);
 
 void cprintf(vcprintf_callback_t callback, void *state, const char* format,
-	     ...) __PRINTFLIKE(3, 4);
+	     ...);
 
 void vcprintf(vcprintf_callback_t callback, void *state, const char* format,
 	      va_list args);
-__END_DECLS
 
 #endif // #ifndef PRINTF_H

@@ -5,9 +5,9 @@
 //      Max file size is a single block
 //      We don not suport zero-size files
 
-#include "hal.h"
+#include "../hal/hal.h"
 #include "fat.h"
-#include "kprintf.h"
+#include "../kprintf/kprintf.h"
 
 #define SECTOR_SIZE                             512
 #define MASTER_BOOT_RECORD                      0

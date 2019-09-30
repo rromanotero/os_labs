@@ -20,7 +20,7 @@
 **/
 
 #include "hal.h"
-#include "uart.h"
+#include "../drivers/uart/uart.h"
 
 /*
 *  HAL IO Serial Init

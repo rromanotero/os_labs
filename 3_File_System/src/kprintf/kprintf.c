@@ -47,7 +47,7 @@
 #include "kprintf.h"
 #include <stdbool.h>
 #include <stdint.h>
-#include "hal.h"
+#include "../hal/hal.h"
 
 static _Bool isdigit(unsigned char c) {
     return ((unsigned char)(c - '0') < 10);
