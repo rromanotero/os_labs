@@ -30,8 +30,6 @@ TARGET_EXEC ?= kernel8.img
 SRC_DIRS ?= ./src
 BUILD_DIR ?= ./build
 OUTPUT ?= ./output
-PATH_TO_LC ?= /gnu_toolchain/aarch64-elf/lib/
-PATH_TO_LGCC ?= /gnu_toolchain/lib/gcc/aarch64-elf/8.3.0/
 
 SRCS := $(shell find $(SRC_DIRS) -name *.c -or -name *.s)
 OBJS := $(SRCS:%=$(BUILD_DIR)/%.o)
@@ -40,7 +38,7 @@ INC_DIRS := $(shell find $(SRC_DIRS) -type d)
 INC_FLAGS := $(addprefix -I,$(INC_DIRS))
 
 CFLAGS = $(INC_FLAGS) -mcpu=cortex-a53 -O0 -nostdlib -ffreestanding
-LDFLAGS = -L$(PATH_TO_LC) -lc -L$(PATH_TO_LGCC) -lgcc
+LDFLAGS = -L/gnu_toolchain/aarch64-elf/lib/ -lc -L/gnu_toolchain/lib/gcc/aarch64-elf/8.3.0/ -lgcc
 
 $(BUILD_DIR)/$(TARGET_EXEC): $(OBJS)
 	$(LD) $(OBJS) $(LDFLAGS) -T linker.ld -o $(OUTPUT)/$(ELF)
@@ -62,8 +60,6 @@ $(BUILD_DIR)/%.c.o: %.c
 
 clean:
 	$(RM) -r $(BUILD_DIR)
-	$(RM) $(OUTPUT)/$(ELF)
-	$(RM) $(OUTPUT)/kernel8.lss
-	$(RM) $(OUTPUT)/kernel8.dump
+
 
 MKDIR_P ?= mkdir -p

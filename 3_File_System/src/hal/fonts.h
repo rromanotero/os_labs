@@ -19,52 +19,19 @@
 *
 **/
 
-MEMORY
-{
-	ram : ORIGIN = 0x80000, LENGTH = 0x20000000 /* 512 MB */
-}
-__stack_size__ = DEFINED(__stack_size__) ? __stack_size__ : 0x3000; /* 12KB */
+#ifndef FONTS_H
+#define FONTS_H
 
-SECTIONS
-{
-		. = 0x80000;
-		__start = .;
+#include <stdbool.h>
+#include "hal.h"
 
-		.text : {
-				__text_start = .;
-				KEEP(*(.boot))
-				*(.text)
-				__text_end = .;
-		} > ram
 
-		.data :
-		{
-				. = ALIGN(4);
-				__data_start = .;
-				*(.data)
-				__data_end = .;
-		} > ram
+typedef struct{
+  uint32_t num_lines;
+  VideoLine lines[6];
+}VideoFont;
 
-		.bss (NOLOAD):
-		{
-			 . = ALIGN(4);
-				__bss_start = .;
-				*(.bss)
-				__bss_end = .;
-		} > ram
+void fonts_init(void);
+VideoFont* fonts_char_to_font(uint8_t);
 
-		.rodata : {
-				. = ALIGN(4);
-				__rodata_start = .;
-				*(.rodata)
-				__rodata_end = .;
-		} > ram
-
-		.stack (NOLOAD):
-      {
-          . = ALIGN(16);  /* 64-bit APCS requires 128-bit stack alignment */
-          __stack_start = .;
-          . = . + __stack_size__;
-          __stack_end = .;
-      } > ram
-}
+#endif

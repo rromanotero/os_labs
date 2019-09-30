@@ -43,60 +43,73 @@
  * DEALINGS IN THE SOFTWARE.
  *
  */
+#include "mbox.h"
+#include "fb.h"
 
-#include "gpio.h"
+static unsigned int width, height, pitch;
+static uint32_t *fb;  //The framebuffer
 
-#define SYSTMR_LO        ((volatile unsigned int*)(MMIO_BASE+0x00003004))
-#define SYSTMR_HI        ((volatile unsigned int*)(MMIO_BASE+0x00003008))
-
-/**
- * Wait N CPU cycles (ARM CPU only)
- */
-void delays_wait_cycles(unsigned int n)
-{
-    if(n) while(n--) { asm volatile("nop"); }
-}
+#define NULL 0
 
 /**
- * Wait N microsec (ARM CPU only)
+ * Set screen resolution to 1024x768
  */
-void delays_wait_microsecs(unsigned int n)
+uint32_t* fb_init()
 {
-    register unsigned long f, t, r;
-    // get the current counter frequency
-    asm volatile ("mrs %0, cntfrq_el0" : "=r"(f));
-    // read the current counter
-    asm volatile ("mrs %0, cntpct_el0" : "=r"(t));
-    // calculate expire value for counter
-    t+=((f/1000)*n)/1000;
-    do{asm volatile ("mrs %0, cntpct_el0" : "=r"(r));}while(r<t);
-}
+    mbox[0] = 35*4;
+    mbox[1] = MBOX_REQUEST;
 
-/**
- * Get System Timer's counter
- */
-unsigned long get_system_timer()
-{
-    unsigned int h=-1, l;
-    // we must read MMIO area as two separate 32 bit reads
-    h=*SYSTMR_HI;
-    l=*SYSTMR_LO;
-    // we have to repeat it if high word changed during read
-    if(h!=*SYSTMR_HI) {
-        h=*SYSTMR_HI;
-        l=*SYSTMR_LO;
+    mbox[2] = 0x48003;  //set phy wh
+    mbox[3] = 8;
+    mbox[4] = 8;
+    mbox[5] = 1024;         //FrameBufferInfo.width
+    mbox[6] = 768;          //FrameBufferInfo.height
+
+    mbox[7] = 0x48004;  //set virt wh
+    mbox[8] = 8;
+    mbox[9] = 8;
+    mbox[10] = 1024;        //FrameBufferInfo.virtual_width
+    mbox[11] = 768;         //FrameBufferInfo.virtual_height
+
+    mbox[12] = 0x48009; //set virt offset
+    mbox[13] = 8;
+    mbox[14] = 8;
+    mbox[15] = 0;           //FrameBufferInfo.x_offset
+    mbox[16] = 0;           //FrameBufferInfo.y.offset
+
+    mbox[17] = 0x48005; //set depth
+    mbox[18] = 4;
+    mbox[19] = 4;
+    mbox[20] = 32;          //FrameBufferInfo.depth
+
+    mbox[21] = 0x48006; //set pixel order
+    mbox[22] = 4;
+    mbox[23] = 4;
+    mbox[24] = 1;           //RGB, not BGR preferably
+
+    mbox[25] = 0x40001; //get framebuffer, gets alignment on request
+    mbox[26] = 8;
+    mbox[27] = 8;
+    mbox[28] = 4096;        //FrameBufferInfo.pointer
+    mbox[29] = 0;           //FrameBufferInfo.size
+
+    mbox[30] = 0x40008; //get pitch
+    mbox[31] = 4;
+    mbox[32] = 4;
+    mbox[33] = 0;           //FrameBufferInfo.pitch
+
+    mbox[34] = MBOX_TAG_LAST;
+
+    if(mbox_call(MBOX_CH_PROP) && mbox[20]==32 && mbox[28]!=0) {
+        mbox[28]&=0x3FFFFFFF;
+        width=mbox[5];
+        height=mbox[6];
+        pitch=mbox[33];
+        fb=(void*)((unsigned long)mbox[28]);
+    } else {
+        //Failed to init screen at 32-bit 1024x768
+        return NULL;
     }
-    // compose long int value
-    return ((unsigned long) h << 32) | l;
-}
 
-/**
- * Wait N microsec (with BCM System Timer)
- */
-void delays_wait_msec_st(unsigned int n)
-{
-    unsigned long t=get_system_timer();
-    // we must check if it's non-zero, because qemu does not emulate
-    // system timer, and returning constant zero would mean infinite loop
-    if(t) while(get_system_timer() < t+n);
+    return fb;
 }
