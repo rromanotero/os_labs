@@ -17,14 +17,15 @@ Demoes here:
 
 ### Important
 
-There is NO SCHEDULER in this demo, so **THREADS ARE NEVER PRE-EMPTED**. **Each of them owns a CPU and run code in it until the end of times**. Within the code I called them **CPU threads** (to make a distinction from threads). If you're understanding right you might've guessed that there can only be **4 CPU threads (once for each core)**. You can still work on a scheduler!
+There is NO SCHEDULER in this demo, so **THREADS ARE NEVER PRE-EMPTED**. **Each of them owns a CPU and run code in it until the end of times**. Within the code I called them **CPU threads** (to make a distinction from threads). If you're understanding right you might've guessed that there can only be **4 CPU threads (once for each core)**. You can still work on a scheduler ... a multicore scheduler!
 
 ### Notes
 - Edit **$GCC_BIN_PATH** (path to your gcc's bin folder) and **$QEMU_BIN_PATH**
   (path to qemu in your computer) from **windows_build.ps1** to build and run everything
-- When built using specifically windows_build.ps1 it'll work on the PI. However, for
-  some odd reason when built using the Makefile, it'll compile and run on QEMU
-  but not on the PI. Why? No idea. Actually I haven't tested it, so you may need to tweak the Makefile a bit.
-- The delays are precise on the PI, but not as much in QEMU (since it's emulated)
-- **The demo is part of the kernel** . I was not able to get software interrupts
-  (that's how system calls are made) to play well with the timer interrupts for this demo. it worked well on QEMU but the PI kept faulting and faulting.
+- When built using specifically windows_build.ps1 it'll work both QEMU and the PI. However, for
+  some odd reason when built using the **Makefile**, it'll compile and run on QEMU
+  but **not on the PI** . Why? No idea. I guess Compilers can be mysterious.
+- I added a **nonblocking getc**, so you can poll and continue to do something else if no key's being pressed.
+- The **delays and ticks are precise on the PI**, but **not as much in QEMU** (since it's emulated, it goes slower on QEMU)
+- The **demo is part of the kernel**. I was not able to get software interrupts
+  (that's how system calls are made) to play well with the timer interrupts for this demo. it worked well on QEMU but the PI kept faulting and faulting. So no processes if you're using this demo!

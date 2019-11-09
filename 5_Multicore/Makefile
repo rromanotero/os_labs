@@ -18,7 +18,9 @@
 #   along with this program.  If not, see <https://www.gnu.org/licenses/>.
 #
 
+AS=aarch64-elf-gcc
 CC=aarch64-elf-gcc
+LD=aarch64-elf-ld
 OBJCOPY=aarch64-elf-objcopy
 OBJDUMP=aarch64-elf-objdump
 ELF=kernel8.elf
@@ -30,24 +32,29 @@ BUILD_DIR ?= ./build
 OUTPUT ?= ./output
 
 SRCS := $(shell find $(SRC_DIRS) -name *.c -or -name *.S)
+OBJS := $(SRCS:%=$(BUILD_DIR)/%.o)
 
 INC_DIRS := $(shell find $(SRC_DIRS) -type d)
 INC_FLAGS := $(addprefix -I,$(INC_DIRS))
 
-CFLAGS = $(INC_FLAGS) -O3 -march=armv8-a+simd -mtune=cortex-a53 -mstrict-align -fno-tree-loop-vectorize -fno-tree-slp-vectorize -nostdlib -nostartfiles -ffreestanding -fno-asynchronous-unwind-tables -fomit-frame-pointer
-LDFLAGS = -Wl,-gc-sections
+CFLAGS = $(INC_FLAGS) -mcpu=cortex-a53 -O0 -nostdlib -ffreestanding
+LDFLAGS = -L/gnu_toolchain/aarch64-elf/lib/ -lc -L/gnu_toolchain/lib/gcc/aarch64-elf/8.3.0/ -lgcc
 
-$(BUILD_DIR)/$(TARGET_EXEC): $(SRCS)
-	$(CC) $(CFLAGS)  $(LDFLAGS) -Wl,-T,linker.ld src/main.c src/SmartStart64.S src/rpi-SmartStart.c src/kprintf/kprintf.c  -o $(TARGET_EXEC)
+$(BUILD_DIR)/$(TARGET_EXEC): $(OBJS)
+	$(LD) $(OBJS) $(LDFLAGS) -T linker.ld -o $(OUTPUT)/$(ELF)
 	$(OBJCOPY) -O binary $(OUTPUT)/$(ELF) $(OUTPUT)/$(IMAGE)
 	$(OBJDUMP) -D $(OUTPUT)/$(ELF) > $(OUTPUT)/kernel8.lss
 	$(OBJDUMP) -s $(OUTPUT)/$(ELF) > $(OUTPUT)/kernel8.dump
 
 # assembly
-.o: %.S
+$(BUILD_DIR)/%.S.o: %.S
 	$(MKDIR_P) $(dir $@)
 	$(CC) $(CFLAGS) -c $< -o $@
 
+# c source
+$(BUILD_DIR)/%.c.o: %.c
+	$(MKDIR_P) $(dir $@)
+	$(CC) $(CFLAGS) -c $< -o $@
 
 .PHONY: clean
 
