@@ -27,4 +27,4 @@ There is NO SCHEDULER in this demo, so **THREADS ARE NEVER PRE-EMPTED**. **Each 
   but not on the PI. Why? No idea. Actually I haven't tested it, so you may need to tweak the Makefile a bit.
 - The delays are precise on the PI, but not as much in QEMU (since it's emulated)
 - **The demo is part of the kernel** . I was not able to get software interrupts
-  (that's how system calls are made) to play well with the timer interrupts for this demo. it worked well on QEMU but the PI kept faulting and faulting and I need to move on. (I'll fix this later)
+  (that's how system calls are made) to play well with the timer interrupts for this demo. it worked well on QEMU but the PI kept faulting and faulting.
