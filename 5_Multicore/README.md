@@ -19,6 +19,13 @@ Demoes here:
 
 There is NO SCHEDULER in this demo, so **THREADS ARE NEVER PRE-EMPTED**. **Each of them owns a CPU and run code in it until the end of times**. Within the code I called them **CPU threads** (to make a distinction from threads). If you're understanding right you might've guessed that there can only be **4 CPU threads (once for each core)**. You can still work on a scheduler ... a multicore scheduler!
 
+
+### No locks
+
+If you have a look at the PI demo, above, you'll see output text is printed out of order (it also happens on QEMU, but less). So you'll have to be careful with race conditions! Remember read and write are atomic, so you do not need to synchronize that. **If you do need a lock, you'll have to write one yourself**. It's not difficult with hardware support.... maybe ask me how. 
+
+
+
 ### Notes
 - Edit **$GCC_BIN_PATH** (path to your gcc's bin folder) and **$QEMU_BIN_PATH**
   (path to qemu in your computer) from **windows_build.ps1** to build and run everything
