@@ -1,0 +1,5 @@
+Large files do not belong in source control
+Download IMage from here:
+
+https://embedntks.com/comp4735/sd_card.img
+https://embedntks.com/comp4735/sd_card_many_files.img
