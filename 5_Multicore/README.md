@@ -7,7 +7,7 @@ This demo shows example code for:
 - Printing to the screen
 - Running Code in 4 CPU Threads
 - Measuring elapsed time by reading a timer's counter
-- Using a timer interrupt that *ticks*
+- Using a timer interrupt that *ticks* for periodic tasks
 
 The code is in main.c. Main begins executing and creates three CPU threads, each of which will do different tasks. One will print to the screen. A second one will work together with a timer interrupt to print the number of ticks. A third one will read user input and draw a square on the screen, and a last one... I've forgotten, you can check it out.If you've written multithreaded code before you'll understand immediately what is happening.
 
