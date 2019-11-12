@@ -5,6 +5,18 @@
 #include "kprintf.h"
 #include "fat.h"
 
+
+//         W A R N I N G:
+//
+//
+//          NOTE THE FILE SYSTEM AND (MULTICORE THREADS + INTERRUPTS )
+//             DON;T WORK TOGETHER AT THE MOMENT
+//
+//
+//           BY ITSELF IT WORKS JUST FINE          
+//
+//
+
 void display_root_dir(void);
 void display_image(void);
 void display_alice(void);
