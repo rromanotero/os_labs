@@ -27,7 +27,7 @@ If you have a look at the PI demo, above, you'll see output text is printed out 
 
 
 ### Notes
-- Edit **$GCC_BIN_PATH** (path to your gcc's bin folder) and **$QEMU_BIN_PATH**
+- In windows_build.ps1 edit **$GCC_BIN_PATH** (path to your gcc's bin folder) and **$QEMU_BIN_PATH**
   (path to qemu in your computer) from **windows_build.ps1** to build and run everything
 - When built using specifically windows_build.ps1 it'll work both QEMU and the PI. However, for
   some odd reason when built using the **Makefile**, it'll compile and run on QEMU
