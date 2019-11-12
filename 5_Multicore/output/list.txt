@@ -1,4 +1,4 @@
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 1
 
 
    1              		.arch armv8-a
@@ -58,7 +58,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
   55 007c 00040011 		add	w0, w0, 1
   56 0080 E02F00B9 		str	w0, [sp, 44]
   57              	.L11:
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 2
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 2
 
 
   58 0084 E11F8052 		mov	w1, 255
@@ -118,7 +118,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  110 0138 580CA272 		movk	w24, 0x1062, lsl 16
  111 013c 14008052 		mov	w20, 0
  112 0140 F55B01A9 		stp	x21, x22, [sp, 16]
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 3
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 3
 
 
  113 0144 35008052 		mov	w21, 1
@@ -178,7 +178,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  166 01f4 02000090 		adrp	x2, timer_handler
  167 01f8 42000091 		add	x2, x2, :lo12:timer_handler
  168 01fc 01D89852 		mov	w1, 50880
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 4
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 4
 
 
  169 0200 A105A072 		movk	w1, 0x2d, lsl 16
@@ -238,7 +238,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  219              		.bss
  220              		.align	2
  221              		.set	.LANCHOR0,. + 0
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 5
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 5
 
 
  222              		.type	tick_happened, %object
@@ -276,24 +276,24 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  238      696E2043 
  238      6F726520 
  239              		.ident	"GCC: (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) 8.3.0"
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 6
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 6
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 main.c
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:4      .text:0000000000000000 $x
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:8      .text:0000000000000000 timer_handler
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:18     .text:0000000000000010 thread_1
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:37     .text:0000000000000040 thread_2
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:99     .text:0000000000000110 thread_3
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:144    .text:00000000000001a0 kernel_main
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:184    .text:0000000000000230 abs
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:191    .text:0000000000000240 ms_to_us
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:200    .text:0000000000000250 secs_to_us
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:210    .text:0000000000000260 systick_diff_to_ms
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:224    .bss:0000000000000000 tick_happened
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:220    .bss:0000000000000000 $d
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:227    .rodata.str1.8:0000000000000000 $d
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:4      .text:0000000000000000 $x
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:8      .text:0000000000000000 timer_handler
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:18     .text:0000000000000010 thread_1
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:37     .text:0000000000000040 thread_2
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:99     .text:0000000000000110 thread_3
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:144    .text:00000000000001a0 kernel_main
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:184    .text:0000000000000230 abs
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:191    .text:0000000000000240 ms_to_us
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:200    .text:0000000000000250 secs_to_us
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:210    .text:0000000000000260 systick_diff_to_ms
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:224    .bss:0000000000000000 tick_happened
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:220    .bss:0000000000000000 $d
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:227    .rodata.str1.8:0000000000000000 $d
 
 UNDEFINED SYMBOLS
 hal_timer_delay_microsecs
@@ -305,7 +305,7 @@ system_init
 hal_cpu_thread_start
 hal_timer_start_poll
 hal_timer_start_int
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 1
 
 
    1              		.arch armv8-a
@@ -365,7 +365,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
   55 00ac E31340F9 		ldr	x3, [sp, 32]
   56 00b0 E00313AA 		mov	x0, x19
   57 00b4 02000090 		adrp	x2, .LC2
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 2
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 2
 
 
   58 00b8 42000091 		add	x2, x2, :lo12:.LC2
@@ -425,7 +425,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  112 017c 1F2003D5 		.p2align 3
  113              	.L9:
  114 0180 007D8052 		mov	w0, 1000
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 3
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 3
 
 
  115 0184 00000094 		bl	hal_cpu_delay
@@ -485,7 +485,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  165 0013 00000000 		.zero	5
  165      00
  166              	.LC1:
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 4
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 4
 
 
  167 0018 56696465 		.string	"Video Init [OK] \n\r    resolution %d x %d\n\r"
@@ -545,7 +545,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  188 0133 00000000 		.zero	5
  188      00
  189              	.LC9:
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 5
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 5
 
 
  190 0138 46696C65 		.string	"File System [FAILED]. Cannot continue.\n\r"
@@ -562,16 +562,16 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  193      5B464149 
  193      4C45445D 
  194              		.ident	"GCC: (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) 8.3.0"
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 6
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 6
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 system.c
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:4      .text:0000000000000000 $x
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:8      .text:0000000000000000 system_init
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:4      .text:0000000000000000 $x
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:8      .text:0000000000000000 system_init
                             *COM*:0000000000000064 info_buf
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:148    .text:00000000000001f0 wait_for_ten_secs
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:162    .rodata.str1.8:0000000000000000 $d
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:148    .text:00000000000001f0 wait_for_ten_secs
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:162    .rodata.str1.8:0000000000000000 $d
 
 UNDEFINED SYMBOLS
 hal_io_serial_init
@@ -587,7 +587,7 @@ hal_sd_card_init
 fat_init
 hal_timer_init
 kprintf
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 1
 
 
    1              	# 1 "src/smartstart/SmartStart64.S"
@@ -647,7 +647,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
   52              	
   53 0024 001380D2 		mov x0, #0x98							// Compiled for ARM8 CPU in AARCH64 and supports 4 cores
   54 0028 410D0058 		ldr x1, =RPi_CompileMode				// Address of RPi_CompileMode
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 2
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 2
 
 
   55 002c 200000B9 		str w0, [x1]							// Store the compiler mode
@@ -707,7 +707,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  109              	
  110              	//"================================================================"
  111              	//  Disable coprocessor traps for all Cores
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 3
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 3
 
 
  112              	//"================================================================"
@@ -767,7 +767,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  166              	
  167              	//"================================================================"
  168              	//  About to go to into C kernel clear BSS (Core0 only)
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 4
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 4
 
 
  169              	//"================================================================"
@@ -827,7 +827,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  223 01ac 00000014 		b hang
  224              	.balign	4
  225 01b0 00000000 	.ltorg										/* Tell assembler ltorg data for code above can go here */
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 5
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 5
 
 
  225      00000000 
@@ -887,7 +887,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  276 02dc 200080D2 		mov x0, #1
  277 02e0 C0035FD6 		ret
  278              	CoreExecuteFail:
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 6
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 6
 
 
  279 02e4 000080D2 		mov x0, #0
@@ -947,7 +947,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  330              	.global GPUaddrToARMaddr;
  331              	.type GPUaddrToARMaddr, %function
  332              	//"================================================================"
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 7
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 7
 
 
  333              	// GPUaddrToARMaddr -- AARCH64 Pi3 code
@@ -1007,7 +1007,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  387 0070 E2000036 		tbz	x2, 0, .TimerIrqNotPending	    // If timer IRQ pending not yet exit
  388 0074 02809652 		mov	w2, 46080						// W2 = 0xB400
  389 0078 0000020B 		add	w0, w0, w2						// Add Pi Base Addr + 0xB400
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 8
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 8
 
 
  390 007c 020C00B9 		str	w2, [x0, 12]					// Store W2 to IRQPending1 clearing it
@@ -1067,7 +1067,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  438      1F2003D5 
  438      1F2003D5 
  438      1F2003D5 
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 9
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 9
 
 
  439 0884 1F2003D5 		vector	hang			/* FIQ */
@@ -1127,7 +1127,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  453              	
  454              		/* from lower EL, target EL minus 1 is AArch32 */
  455 0d84 1F2003D5 		vector	hang			/* Synchronous */
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 10
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 10
 
 
  455      1F2003D5 
@@ -1179,7 +1179,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  486              	****************************************************************/
  487 0018 00000000 	RPi_TimerIrqAddr : .8byte 0;			// Timer Irq Address
  487      00000000 
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 11
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 11
 
 
 DEFINED SYMBOLS
@@ -1239,14 +1239,14 @@ __EL2_stack_core3
 __EL1_stack_core3
 __EL0_stack_core3
 __bss_end__
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 12
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 12
 
 
 __bss_start__
 kernel_main
 synchronous_handler
 hal_synchronous_handler
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 1
 
 
    1              		.arch armv8-a
@@ -1306,7 +1306,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
   55 00a8 E40F4729 		ldp	w4, w3, [sp, 56]
   56 00ac 640E0029 		stp	w4, w3, [x19]
   57 00b0 E2074829 		ldp	w2, w1, [sp, 64]
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 2
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 2
 
 
   58 00b4 62060129 		stp	w2, w1, [x19, 8]
@@ -1366,7 +1366,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  112              		.size	mailbox_tag_message.constprop.3, .-mailbox_tag_message.constprop.3
  113              		.align	2
  114              		.p2align 4,,15
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 3
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 3
 
 
  115              		.global	memcpy
@@ -1426,7 +1426,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  167 0200 0000819A 		csel	x0, x0, x1, eq
  168 0204 C0035FD6 		ret
  169              		.p2align 2
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 4
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 4
 
 
  170              	.L71:
@@ -1486,7 +1486,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  222 02a4 047C0553 		lsr	w4, w0, 5
  223 02a8 25008052 		mov	w5, 1
  224 02ac 63004811 		add	w3, w3, 2097152
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 5
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 5
 
 
  225 02b0 A220C01A 		lsl	w2, w5, w0
@@ -1546,7 +1546,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  277 0344 88010054 		bhi	.L86
  278 0348 01000090 		adrp	x1, RPi_IO_Base_Addr
  279 034c 220040B9 		ldr	w2, [x1, #:lo12:RPi_IO_Base_Addr]
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 6
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 6
 
 
  280 0350 037C0553 		lsr	w3, w0, 5
@@ -1606,7 +1606,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  333 03f0 E2010034 		cbz	w2, .L93
  334 03f4 A5C00191 		add	x5, x5, 112
  335 03f8 E003022A 		mov	w0, w2
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 7
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 7
 
 
  336 03fc 8400058B 		add	x4, x4, x5
@@ -1666,7 +1666,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  390 0490 430840B9 		ldr	w3, [x2, 8]
  391 0494 3F00036B 		cmp	w1, w3
  392 0498 81FFFF54 		bne	.L98
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 8
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 8
 
 
  393 049c E403042A 		uxtw	x4, w4
@@ -1726,7 +1726,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  445 0548 210C4011 		add	w1, w1, 12288
  446 054c 1F2003D5 		.p2align 3
  447              	.L113:
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 9
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 9
 
 
  448 0550 200840B9 		ldr	w0, [x1, 8]
@@ -1786,7 +1786,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  500              	mailbox_write:
  501 05e0 1F240071 		cmp	w0, 9
  502 05e4 88010054 		bhi	.L126
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 10
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 10
 
 
  503 05e8 02000090 		adrp	x2, RPi_IO_Base_Addr
@@ -1846,7 +1846,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  555 067c F4030191 		add	x20, sp, 64
  556 0680 690E0011 		add	w9, w19, 3
  557 0684 217C4093 		sxtw	x1, w1
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 11
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 11
 
 
  558 0688 F57B01A9 		stp	x21, x30, [sp, 16]
@@ -1906,7 +1906,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  612 0744 DF000071 		cmp	w6, 0
  613 0748 84C0228B 		add	x4, x4, x2, sxtw
  614 074c E203062A 		mov	w2, w6
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 12
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 12
 
 
  615 0750 4CFEFF54 		bgt	.L169
@@ -1966,7 +1966,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  669 0808 F353CFA8 		ldp	x19, x20, [sp], 240
  670 080c C0035FD6 		ret
  671              		.size	mailbox_tag_message, .-mailbox_tag_message
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 13
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 13
 
 
  672              		.align	2
@@ -2026,7 +2026,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  726 08d4 220840B9 		ldr	w2, [x1, 8]
  727 08d8 42741C12 		and	w2, w2, -13
  728 08dc 220800B9 		str	w2, [x1, 8]
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 14
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 14
 
 
  729 08e0 220840B9 		ldr	w2, [x1, 8]
@@ -2086,7 +2086,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  782              	.L182:
  783 098c 027C0553 		lsr	w2, w0, 5
  784 0990 01000090 		adrp	x1, RPi_IO_Base_Addr
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 15
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 15
 
 
  785 0994 210040B9 		ldr	w1, [x1, #:lo12:RPi_IO_Base_Addr]
@@ -2146,7 +2146,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  839 0a4c 48010054 		bhi	.L181
  840 0a50 01028052 		mov	w1, 16
  841 0a54 E003012A 		mov	w0, w1
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 16
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 16
 
 
  842 0a58 410000B9 		str	w1, [x2, #:lo12:.LANCHOR1]
@@ -2206,7 +2206,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  894 0b00 E02B40B9 		ldr	w0, [sp, 40]
  895 0b04 FE0743F8 		ldr	x30, [sp], 48
  896 0b08 C0035FD6 		ret
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 17
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 17
 
 
  897              		.size	ARM_setmaxspeed, .-ARM_setmaxspeed
@@ -2266,7 +2266,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  951              	ActivityGPIOPort:
  952 0000 2F000000 		.word	47
  953              		.bss
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 18
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 18
 
 
  954              		.align	2
@@ -2316,40 +2316,40 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  979      4350552C 
  979      20706172 
  980              		.ident	"GCC: (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) 8.3.0"
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 19
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 19
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 rpi-SmartStart.c
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:4      .text:0000000000000000 $x
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:7      .text:0000000000000000 mailbox_tag_message.constprop.4
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:69     .text:00000000000000d0 mailbox_tag_message.constprop.3
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:117    .text:0000000000000170 memcpy
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:135    .text:00000000000001a0 strlen
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:154    .text:00000000000001d0 RPi_CpuIdString
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:184    .text:0000000000000220 gpio_setup
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:216    .text:0000000000000290 gpio_output
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:251    .text:0000000000000300 gpio_input
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:275    .text:0000000000000340 gpio_checkEvent
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:298    .text:0000000000000380 gpio_clearEvent
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:320    .text:00000000000003c0 gpio_edgeDetect
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:373    .text:0000000000000460 gpio_fixResistor
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:442    .text:0000000000000540 timer_getTickCount
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:461    .text:0000000000000570 timer_wait
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:492    .text:00000000000005d0 tick_difference
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:500    .text:00000000000005e0 mailbox_write
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:525    .text:0000000000000620 mailbox_read
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:551    .text:0000000000000670 mailbox_tag_message
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:676    .text:0000000000000810 TimerIrqSetup
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:744    .text:0000000000000910 set_Activity_LED
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:862    .text:0000000000000a90 ARM_setmaxspeed
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:902    .text:0000000000000b10 displaySmartStart
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:963    .bss:0000000000000004 console
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:947    .data:0000000000000000 $d
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:951    .data:0000000000000000 ActivityGPIOPort
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:954    .bss:0000000000000000 $d
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:958    .bss:0000000000000000 ModelCheckHasRun
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:966    .rodata.str1.8:0000000000000000 $d
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:4      .text:0000000000000000 $x
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:7      .text:0000000000000000 mailbox_tag_message.constprop.4
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:69     .text:00000000000000d0 mailbox_tag_message.constprop.3
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:117    .text:0000000000000170 memcpy
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:135    .text:00000000000001a0 strlen
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:154    .text:00000000000001d0 RPi_CpuIdString
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:184    .text:0000000000000220 gpio_setup
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:216    .text:0000000000000290 gpio_output
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:251    .text:0000000000000300 gpio_input
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:275    .text:0000000000000340 gpio_checkEvent
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:298    .text:0000000000000380 gpio_clearEvent
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:320    .text:00000000000003c0 gpio_edgeDetect
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:373    .text:0000000000000460 gpio_fixResistor
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:442    .text:0000000000000540 timer_getTickCount
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:461    .text:0000000000000570 timer_wait
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:492    .text:00000000000005d0 tick_difference
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:500    .text:00000000000005e0 mailbox_write
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:525    .text:0000000000000620 mailbox_read
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:551    .text:0000000000000670 mailbox_tag_message
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:676    .text:0000000000000810 TimerIrqSetup
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:744    .text:0000000000000910 set_Activity_LED
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:862    .text:0000000000000a90 ARM_setmaxspeed
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:902    .text:0000000000000b10 displaySmartStart
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:963    .bss:0000000000000004 console
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:947    .data:0000000000000000 $d
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:951    .data:0000000000000000 ActivityGPIOPort
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:954    .bss:0000000000000000 $d
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:958    .bss:0000000000000000 ModelCheckHasRun
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:966    .rodata.str1.8:0000000000000000 $d
 
 UNDEFINED SYMBOLS
 ARMaddrToGPUaddr
@@ -2358,7 +2358,7 @@ RPi_CpuId
 setTimerIrqAddress
 RPi_CoresReady
 snprintf
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 1
 
 
    1              		.arch armv8-a
@@ -2418,7 +2418,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
   55              		// End of user assembly
   56 005c 1F0001EB 		cmp	x0, x1
   57 0060 C8FFFF54 		bhi	.L10
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 2
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 2
 
 
   58 0064 C0035FD6 		ret
@@ -2478,7 +2478,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  110 0108 440040B9 		ldr	w4, [x2]
  111 010c 3F00046B 		cmp	w1, w4
  112 0110 00010054 		beq	.L17
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 3
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 3
 
 
  113 0114 410040B9 		ldr	w1, [x2]
@@ -2498,19 +2498,19 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  127 0140 C0035FD6 		ret
  128              		.size	delays_wait_msec_st, .-delays_wait_msec_st
  129              		.ident	"GCC: (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) 8.3.0"
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 4
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 4
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 delays.c
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:4      .text:0000000000000000 $x
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:8      .text:0000000000000000 delays_wait_cycles
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:28     .text:0000000000000020 delays_wait_microsecs
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:64     .text:0000000000000070 get_system_timer
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:85     .text:00000000000000b0 delays_wait_msec_st
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:4      .text:0000000000000000 $x
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:8      .text:0000000000000000 delays_wait_cycles
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:28     .text:0000000000000020 delays_wait_microsecs
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:64     .text:0000000000000070 get_system_timer
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:85     .text:00000000000000b0 delays_wait_msec_st
 
 NO UNDEFINED SYMBOLS
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 1
 
 
    1              		.arch armv8-a
@@ -2570,7 +2570,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
   55 00b8 E003012A 		mov	w0, w1
   56 00bc 675600B9 		str	w7, [x19, 84]
   57 00c0 625A00B9 		str	w2, [x19, 88]
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 2
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 2
 
 
   58 00c4 625E00B9 		str	w2, [x19, 92]
@@ -2611,18 +2611,18 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
   93 0144 C0035FD6 		ret
   94              		.size	fb_init, .-fb_init
   95              		.ident	"GCC: (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) 8.3.0"
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 3
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 3
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 fb.c
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:4      .text:0000000000000000 $x
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:8      .text:0000000000000000 fb_init
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:4      .text:0000000000000000 $x
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:8      .text:0000000000000000 fb_init
 
 UNDEFINED SYMBOLS
 mbox
 mbox_call
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 1
 
 
    1              		.arch armv8-a
@@ -2675,17 +2675,17 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
   48              		.size	mbox_call, .-mbox_call
   49              		.comm	mbox,144,16
   50              		.ident	"GCC: (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) 8.3.0"
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 2
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 2
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 mbox.c
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:4      .text:0000000000000000 $x
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:8      .text:0000000000000000 mbox_call
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:4      .text:0000000000000000 $x
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:8      .text:0000000000000000 mbox_call
                             *COM*:0000000000000090 mbox
 
 NO UNDEFINED SYMBOLS
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 1
 
 
    1              		.arch armv8-a
@@ -2745,7 +2745,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
   55 00a0 E1000054 		bne	.L3
   56 00a4 00008052 		mov	w0, 0
   57 00a8 FE1740F9 		ldr	x30, [sp, 40]
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 2
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 2
 
 
   58 00ac F353C3A8 		ldp	x19, x20, [sp], 48
@@ -2805,7 +2805,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  112 0158 00008052 		mov	w0, 0
  113 015c 360000B9 		str	w22, [x1]
  114              	.L21:
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 3
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 3
 
 
  115 0160 F55B41A9 		ldp	x21, x22, [sp, 16]
@@ -2865,7 +2865,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  167 0210 F96B03A9 		stp	x25, x26, [sp, 48]
  168 0214 20030036 		tbz	x0, 0, .L48
  169 0218 010680D2 		mov	x1, 48
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 4
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 4
 
 
  170 021c 01E6A7F2 		movk	x1, 0x3f30, lsl 16
@@ -2925,7 +2925,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  224 02e0 02E6A7F2 		movk	x2, 0x3f30, lsl 16
  225 02e4 800180D2 		mov	x0, 12
  226 02e8 00E6A7F2 		movk	x0, 0x3f30, lsl 16
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 5
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 5
 
 
  227 02ec A10200B9 		str	w1, [x21]
@@ -2985,7 +2985,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  281 03b0 A1020054 		bne	.L92
  282 03b4 40E0A652 		mov	w0, 922877952
  283 03b8 7F02006B 		cmp	w19, w0
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 6
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 6
 
 
  284 03bc 20020054 		beq	.L101
@@ -3045,7 +3045,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  338 046c 010300F9 		str	x1, [x24, #:lo12:sd_err]
  339 0470 E7FFFF17 		b	.L40
  340              		.p2align 2
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 7
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 7
 
 
  341              	.L102:
@@ -3105,7 +3105,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  395 0520 00000091 		add	x0, x0, :lo12:.LC6
  396 0524 00000094 		bl	kprintf_debug
  397 0528 130300F9 		str	x19, [x24, #:lo12:sd_err]
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 8
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 8
 
 
  398 052c 00008052 		mov	w0, 0
@@ -3165,7 +3165,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  452 05ec 1F00176A 		tst	w0, w23
  453 05f0 E1010054 		bne	.L110
  454 05f4 F3478852 		mov	w19, 16959
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 9
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 9
 
 
  455 05f8 F301A072 		movk	w19, 0xf, lsl 16
@@ -3225,7 +3225,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  509 06b0 01001C0B 		add	w1, w0, w28
  510 06b4 00028052 		mov	w0, 16
  511 06b8 4024A272 		movk	w0, 0x1122, lsl 16
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 10
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 10
 
 
  512 06bc 00000094 		bl	sd_cmd
@@ -3285,7 +3285,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  566 0770 40068052 		mov	w0, 50
  567 0774 4044A272 		movk	w0, 0x1222, lsl 16
  568 0778 21001732 		orr	w1, w1, 512
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 11
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 11
 
 
  569 077c 410000B9 		str	w1, [x2]
@@ -3345,7 +3345,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  623 082c 01E6A7F2 		movk	x1, 0x3f30, lsl 16
  624 0830 02408052 		mov	w2, 512
  625 0834 2200A072 		movk	w2, 0x1, lsl 16
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 12
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 12
 
 
  626 0838 00028052 		mov	w0, 16
@@ -3405,7 +3405,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  680 08e4 13000090 		adrp	x19, .LC2
  681 08e8 73020091 		add	x19, x19, :lo12:.LC2
  682 08ec F76302A9 		stp	x23, x24, [sp, 32]
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 13
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 13
 
 
  683 08f0 970480D2 		mov	x23, 36
@@ -3465,7 +3465,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  737 09b4 00009052 		mov	w0, 32768
  738 09b8 C02FA072 		movk	w0, 0x17e, lsl 16
  739 09bc 210040B9 		ldr	w1, [x1]
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 14
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 14
 
 
  740 09c0 3F00006A 		tst	w1, w0
@@ -3525,7 +3525,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  794 0a80 600240B9 		ldr	w0, [x19]
  795 0a84 3B0F0034 		cbz	w27, .L201
  796              	.L197:
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 15
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 15
 
 
  797 0a88 2102A052 		mov	w1, 1114112
@@ -3585,7 +3585,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  851              	.L180:
  852 0b40 F55B41A9 		ldp	x21, x22, [sp, 16]
  853 0b44 F76342A9 		ldp	x23, x24, [sp, 32]
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 16
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 16
 
 
  854 0b48 F96B43A9 		ldp	x25, x26, [sp, 48]
@@ -3645,7 +3645,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  908 0c04 41008052 		mov	w1, 2
  909 0c08 DF060071 		cmp	w22, 1
  910 0c0c 010000B9 		str	w1, [x0]
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 17
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 17
 
 
  911 0c10 C9000054 		bls	.L218
@@ -3705,7 +3705,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  965 0ccc C0F0FFB4 		cbz	x0, .L192
  966 0cd0 9BFFFF17 		b	.L257
  967              	.L269:
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 18
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 18
 
 
  968 0cd4 01008052 		mov	w1, 0
@@ -3765,7 +3765,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  1020 0d7c 410040B9 		ldr	w1, [x2]
  1021 0d80 21781D12 		and	w1, w1, -5
  1022 0d84 410000B9 		str	w1, [x2]
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 19
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 19
 
 
  1023 0d88 00000094 		bl	delays_wait_microsecs
@@ -3825,7 +3825,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  1077 0e4c 00000094 		bl	kprintf_debug
  1078 0e50 00000090 		adrp	x0, .LC4
  1079 0e54 00000091 		add	x0, x0, :lo12:.LC4
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 20
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 20
 
 
  1080 0e58 00000094 		bl	kprintf_debug
@@ -3885,7 +3885,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  1134 0f08 18408052 		mov	w24, 512
  1135 0f0c 13008052 		mov	w19, 0
  1136 0f10 55008052 		mov	w21, 2
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 21
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 21
 
 
  1137 0f14 BFFFFF17 		b	.L276
@@ -3945,7 +3945,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  1189 0fd0 E10240B9 		ldr	w1, [x23]
  1190 0fd4 21140832 		orr	w1, w1, 1056964608
  1191 0fd8 E10200B9 		str	w1, [x23]
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 22
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 22
 
 
  1192 0fdc D80200B9 		str	w24, [x22]
@@ -4005,7 +4005,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  1246 10a8 810240B9 		ldr	w1, [x20]
  1247 10ac 22008052 		mov	w2, 1
  1248 10b0 C201A072 		movk	w2, 0xe, lsl 16
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 23
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 23
 
 
  1249 10b4 40018052 		mov	w0, 10
@@ -4065,7 +4065,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  1303 117c E00313AA 		mov	x0, x19
  1304 1180 00000094 		bl	kprintf_debug
  1305 1184 E00314AA 		mov	x0, x20
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 24
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 24
 
 
  1306 1188 00000094 		bl	kprintf_debug
@@ -4125,7 +4125,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  1360 1248 F55B41A9 		ldp	x21, x22, [sp, 16]
  1361 124c F76342A9 		ldp	x23, x24, [sp, 32]
  1362 1250 FE2B40F9 		ldr	x30, [sp, 80]
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 25
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 25
 
 
  1363 1254 F353C8A8 		ldp	x19, x20, [sp], 128
@@ -4185,7 +4185,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  1417 1318 770500B4 		cbz	x23, .L328
  1418 131c E07340B9 		ldr	w0, [sp, 112]
  1419 1320 80190034 		cbz	w0, .L352
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 26
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 26
 
 
  1420 1324 01008052 		mov	w1, 0
@@ -4245,7 +4245,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  1474 13e4 C0035FD6 		ret
  1475              	.L401:
  1476 13e8 F303002A 		mov	w19, w0
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 27
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 27
 
 
  1477 13ec F96B43A9 		ldp	x25, x26, [sp, 48]
@@ -4305,7 +4305,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  1531 14ac 01008052 		mov	w1, 0
  1532 14b0 00000094 		bl	sd_cmd
  1533 14b4 A00240F9 		ldr	x0, [x21, #:lo12:sd_err]
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 28
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 28
 
 
  1534 14b8 80F9FFB5 		cbnz	x0, .L401
@@ -4365,7 +4365,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  1588 1574 F5FFFF17 		b	.L341
  1589              	.L409:
  1590 1578 00000090 		adrp	x0, .LC24
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 29
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 29
 
 
  1591 157c 00000091 		add	x0, x0, :lo12:.LC24
@@ -4425,7 +4425,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  1645              	.L316:
  1646 163c 00000090 		adrp	x0, .LC16
  1647 1640 00000091 		add	x0, x0, :lo12:.LC16
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 30
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 30
 
 
  1648 1644 33008012 		mov	w19, -2
@@ -4485,7 +4485,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  1694 0040 256400   		.string	"%d"
  1695 0043 00000000 		.zero	5
  1695      00
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 31
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 31
 
 
  1696              	.LC3:
@@ -4545,7 +4545,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  1721      54696D65 
  1721      6F757420 
  1721      77616974 
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 32
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 32
 
 
  1722 012c 00000000 		.zero	4
@@ -4605,7 +4605,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  1744      4F4B0A00 
  1745              	.LC20:
  1746 0218 454D4D43 		.string	"EMMC: CMD_SEND_OP_COND returned "
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 33
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 33
 
 
  1746      3A20434D 
@@ -4656,31 +4656,31 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  1766      424C4B43 
  1766      4E542000 
  1767              		.ident	"GCC: (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) 8.3.0"
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 34
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 34
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 sd.c
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:4      .text:0000000000000000 $x
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:8      .text:0000000000000000 sd_status
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:73     .text:00000000000000d0 sd_int
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:141    .text:00000000000001b0 sd_cmd
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:4      .text:0000000000000000 $x
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:8      .text:0000000000000000 sd_status
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:73     .text:00000000000000d0 sd_int
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:141    .text:00000000000001b0 sd_cmd
                             *COM*:0000000000000008 sd_err
                             *COM*:0000000000000008 sd_rca
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:416    .text:0000000000000560 sd_readblock
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:416    .text:0000000000000560 sd_readblock
                             *COM*:0000000000000010 sd_scr
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:674    .text:00000000000008d0 sd_writeblock
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:988    .text:0000000000000d10 sd_clk
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:674    .text:00000000000008d0 sd_writeblock
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:988    .text:0000000000000d10 sd_clk
                             *COM*:0000000000000008 sd_hv
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:1156   .text:0000000000000f50 sd_init
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:1156   .text:0000000000000f50 sd_init
                             *COM*:0000000000000008 sd_ocr
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:1686   .rodata.str1.8:0000000000000000 $d
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:1686   .rodata.str1.8:0000000000000000 $d
 
 UNDEFINED SYMBOLS
 delays_wait_microsecs
 kprintf_debug
 delays_wait_cycles
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 1
 
 
    1              		.arch armv8-a
@@ -4740,7 +4740,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
   55 00b8 00E4A7F2 		movk	x0, 0x3f20, lsl 16
   56 00bc 820482D2 		mov	x2, 4132
   57 00c0 02E4A7F2 		movk	x2, 0x3f20, lsl 16
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 2
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 2
 
 
   58 00c4 E3FF8052 		mov	w3, 2047
@@ -4800,7 +4800,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  110 0168 1F2003D5 		.p2align 4,,15
  110      1F2003D5 
  111              		.global	uart0_puthex_32_bits
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 3
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 3
 
 
  112              		.type	uart0_puthex_32_bits, %function
@@ -4860,7 +4860,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  165              		.align	2
  166 01fc 1F2003D5 		.p2align 4,,15
  167              		.global	uart0_nonblocking_getc
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 4
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 4
 
 
  168              		.type	uart0_nonblocking_getc, %function
@@ -4920,7 +4920,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  220              		.global	uart0_puts
  221              		.type	uart0_puts, %function
  222              	uart0_puts:
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 5
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 5
 
 
  223 0290 03004039 		ldrb	w3, [x0]
@@ -4980,7 +4980,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  275 031c 21249F9A 		csinc	x1, x1, xzr, cs
  276 0320 10000090 		adrp	x16, .LC0
  277 0324 10020091 		add	x16, x16, :lo12:.LC0
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 6
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 6
 
 
  278 0328 E9030DAA 		mov	x9, x13
@@ -5040,7 +5040,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  332 03cc 60000054 		beq	.L47
  333 03d0 E303022A 		mov	w3, w2
  334 03d4 F5FFFF17 		b	.L45
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 7
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 7
 
 
  335              		.p2align 2
@@ -5100,7 +5100,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  389 044c 220040B9 		ldr	w2, [x1]
  390 0450 C2FF2F37 		tbnz	x2, 5, .L54
  391 0454 880000B9 		str	w8, [x4]
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 8
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 8
 
 
  392 0458 A2044092 		and	x2, x5, 3
@@ -5160,7 +5160,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  446              		.p2align 2
  447              	.L56:
  448              		// Start of user assembly
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 9
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 9
 
 
  449              	// 136 "src/drivers/uart/uart.c" 1
@@ -5179,27 +5179,27 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  462              	.LC0:
  463 0000 3A2000   		.string	": "
  464              		.ident	"GCC: (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) 8.3.0"
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 10
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 10
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 uart.c
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:4      .text:0000000000000000 $x
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:8      .text:0000000000000000 uart0_init
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:79     .text:0000000000000110 uart0_puthex_64_bits
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:113    .text:0000000000000170 uart0_puthex_32_bits
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:147    .text:00000000000001d0 uart0_putc
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:169    .text:0000000000000200 uart0_nonblocking_getc
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:197    .text:0000000000000250 uart0_getc
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:222    .text:0000000000000290 uart0_puts
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:267    .text:0000000000000300 uart0_dump
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:461    .rodata.str1.8:0000000000000000 $d
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:4      .text:0000000000000000 $x
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:8      .text:0000000000000000 uart0_init
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:79     .text:0000000000000110 uart0_puthex_64_bits
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:113    .text:0000000000000170 uart0_puthex_32_bits
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:147    .text:00000000000001d0 uart0_putc
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:169    .text:0000000000000200 uart0_nonblocking_getc
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:197    .text:0000000000000250 uart0_getc
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:222    .text:0000000000000290 uart0_puts
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:267    .text:0000000000000300 uart0_dump
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:461    .rodata.str1.8:0000000000000000 $d
 
 UNDEFINED SYMBOLS
 mbox
 mbox_call
 delays_wait_cycles
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 1
 
 
    1              		.arch armv8-a
@@ -5259,7 +5259,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
   55 00ac 61464039 		ldrb	w1, [x19, 17]
   56 00b0 82578052 		mov	w2, 700
   57 00b4 664A4039 		ldrb	w6, [x19, 18]
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 2
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 2
 
 
   58 00b8 00000090 		adrp	x0, fat_table_buffer
@@ -5319,7 +5319,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  110 017c F55B01A9 		stp	x21, x22, [sp, 16]
  111 0180 16000090 		adrp	x22, boot_sector
  112 0184 D6020091 		add	x22, x22, :lo12:boot_sector
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 3
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 3
 
 
  113 0188 131040B9 		ldr	w19, [x0, 16]
@@ -5379,7 +5379,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  165 0248 39030091 		add	x25, x25, :lo12:boot_sector
  166 024c FB7304A9 		stp	x27, x28, [sp, 64]
  167 0250 FB530291 		add	x27, sp, 148
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 4
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 4
 
 
  168 0254 1C008052 		mov	w28, 0
@@ -5439,7 +5439,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  222 0320 E9870291 		add	x9, sp, 161
  223 0324 E3630291 		add	x3, sp, 152
  224 0328 A861080B 		add	w8, w13, w8, lsl 24
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 5
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 5
 
 
  225 032c E73C1053 		lsl	w7, w7, 16
@@ -5499,7 +5499,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  279 03f0 F7060011 		add	w23, w23, 1
  280 03f4 73720091 		add	x19, x19, 28
  281 03f8 FF021C6B 		cmp	w23, w28
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 6
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 6
 
 
  282 03fc 22050054 		bcs	.L38
@@ -5559,7 +5559,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  336 04b0 F76342A9 		ldp	x23, x24, [sp, 32]
  337 04b4 F96B43A9 		ldp	x25, x26, [sp, 48]
  338 04b8 FB7344A9 		ldp	x27, x28, [sp, 64]
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 7
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 7
 
 
  339 04bc FE2B40F9 		ldr	x30, [sp, 80]
@@ -5619,7 +5619,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  392 0574 39030091 		add	x25, x25, :lo12:buffer
  393 0578 970380D2 		mov	x23, 28
  394 057c F55B01A9 		stp	x21, x22, [sp, 16]
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 8
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 8
 
 
  395 0580 55008052 		mov	w21, 2
@@ -5679,7 +5679,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  449 064c 025C0039 		strb	w2, [x0, 23]
  450 0650 240441D3 		ubfx	x4, x1, 1, 1
  451 0654 230842D3 		ubfx	x3, x1, 2, 1
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 9
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 9
 
 
  452 0658 250C43D3 		ubfx	x5, x1, 3, 1
@@ -5739,7 +5739,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  505              		.align	2
  506 070c 1F2003D5 		.p2align 4,,15
  507              		.global	num_of_clusters_to_sectors
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 10
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 10
 
 
  508              		.type	num_of_clusters_to_sectors, %function
@@ -5797,30 +5797,30 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  559              		.comm	buffer,512,8
  560              		.comm	fat_table_buffer,358400,8
  561              		.ident	"GCC: (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) 8.3.0"
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 11
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 11
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 fat.c
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:4      .text:0000000000000000 $x
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:8      .text:0000000000000000 fat_init
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:4      .text:0000000000000000 $x
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:8      .text:0000000000000000 fat_init
                             *COM*:0000000000000200 buffer
                             *COM*:0000000000000034 boot_sector
                             *COM*:0000000000057800 fat_table_buffer
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:106    .text:0000000000000170 fat_file_read
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:154    .text:0000000000000220 fat_file_open
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:382    .text:0000000000000550 fat_read_files_in_dir
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:496    .text:00000000000006f0 cluster_to_sector
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:509    .text:0000000000000710 num_of_clusters_to_sectors
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:519    .text:0000000000000720 cluster_to_fat_table_offset
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:527    .text:0000000000000730 num_of_sectors_to_bytes
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:537    .text:0000000000000740 offset_read_n_bytes
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:106    .text:0000000000000170 fat_file_read
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:154    .text:0000000000000220 fat_file_open
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:382    .text:0000000000000550 fat_read_files_in_dir
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:496    .text:00000000000006f0 cluster_to_sector
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:509    .text:0000000000000710 num_of_clusters_to_sectors
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:519    .text:0000000000000720 cluster_to_fat_table_offset
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:527    .text:0000000000000730 num_of_sectors_to_bytes
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:537    .text:0000000000000740 offset_read_n_bytes
 
 UNDEFINED SYMBOLS
 hal_sd_card_read_block
 memcpy
 strlen
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 1
 
 
    1              		.arch armv8-a
@@ -5880,7 +5880,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
   55 0098 41FFFF54 		bne	.L7
   56 009c F5023291 		add	x21, x23, 3200
   57 00a0 E1031BAA 		mov	x1, x27
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 2
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 2
 
 
   58 00a4 820C80D2 		mov	x2, 100
@@ -5940,7 +5940,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  112 017c 820C80D2 		mov	x2, 100
  113 0180 630300B9 		str	w3, [x27]
  114 0184 74FF0129 		stp	w20, wzr, [x27, 12]
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 3
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 3
 
 
  115 0188 791300F9 		str	x25, [x27, 32]
@@ -6000,7 +6000,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  169 0260 E1031BAA 		mov	x1, x27
  170 0264 8300C0F2 		movk	x3, 0x4, lsl 32
  171 0268 A0823E91 		add	x0, x21, 4000
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 4
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 4
 
 
  172 026c 820C80D2 		mov	x2, 100
@@ -6060,7 +6060,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  226 0344 E1031BAA 		mov	x1, x27
  227 0348 820C80D2 		mov	x2, 100
  228 034c 630300B9 		str	w3, [x27]
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 5
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 5
 
 
  229 0350 741F00B9 		str	w20, [x27, 28]
@@ -6120,7 +6120,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  283 0428 40430391 		add	x0, x26, 208
  284 042c 820C80D2 		mov	x2, 100
  285 0430 780300B9 		str	w24, [x27]
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 6
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 6
 
 
  286 0434 730B00B9 		str	w19, [x27, 8]
@@ -6180,7 +6180,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  340 050c 4600C0D2 		mov	x6, 8589934592
  341 0510 630B00F9 		str	x3, [x27, 16]
  342 0514 43008012 		mov	w3, 4294967293
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 7
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 7
 
 
  343 0518 E002078B 		add	x0, x23, x7
@@ -6240,7 +6240,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  397 05f0 8600C0F2 		movk	x6, 0x4, lsl 32
  398 05f4 8300C0F2 		movk	x3, 0x4, lsl 32
  399 05f8 E1031BAA 		mov	x1, x27
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 8
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 8
 
 
  400 05fc A0421F91 		add	x0, x21, 2000
@@ -6300,7 +6300,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  454 06d4 E77B7FB2 		mov	x7, 4294967294
  455 06d8 8800C0F2 		movk	x8, 0x4, lsl 32
  456 06dc 64008012 		mov	w4, -4
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 9
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 9
 
 
  457 06e0 E1031BAA 		mov	x1, x27
@@ -6360,7 +6360,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  511 07b8 E1031BAA 		mov	x1, x27
  512 07bc 820C80D2 		mov	x2, 100
  513 07c0 E0823E91 		add	x0, x23, 4000
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 10
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 10
 
 
  514 07c4 798F00A9 		stp	x25, x3, [x27, 8]
@@ -6414,21 +6414,21 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  555      00000000 
  555      00000000 
  556              		.ident	"GCC: (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) 8.3.0"
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 11
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 11
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 fonts.c
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:4      .text:0000000000000000 $x
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:8      .text:0000000000000000 fonts_char_to_font
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:554    .bss:0000000000000068 char_font_map
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:31     .text:0000000000000040 fonts_init
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:545    .bss:0000000000000000 $d
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:549    .bss:0000000000000000 font
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:4      .text:0000000000000000 $x
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:8      .text:0000000000000000 fonts_char_to_font
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:554    .bss:0000000000000068 char_font_map
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:31     .text:0000000000000040 fonts_init
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:545    .bss:0000000000000000 $d
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:549    .bss:0000000000000000 font
 
 UNDEFINED SYMBOLS
 memcpy
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 1
 
 
    1              		.arch armv8-a
@@ -6488,7 +6488,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
   48 0068 C0035FD6 		ret
   49              		.size	hal_cpu_svc_start, .-hal_cpu_svc_start
   50              		.align	2
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 2
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 2
 
 
   51 006c 1F2003D5 		.p2align 4,,15
@@ -6501,19 +6501,19 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
   58              		.size	hal_cpu_delay, .-hal_cpu_delay
   59              		.comm	svc_callback,8,8
   60              		.ident	"GCC: (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) 8.3.0"
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 3
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 3
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 hal_cpu.c
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:4      .text:0000000000000000 $x
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:8      .text:0000000000000000 hal_cpu_init
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:24     .text:0000000000000030 hal_cpu_ints_enable
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:31     .text:0000000000000040 hal_cpu_ints_disable
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:38     .text:0000000000000050 hal_cpu_thread_start
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:45     .text:0000000000000060 hal_cpu_svc_start
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:4      .text:0000000000000000 $x
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:8      .text:0000000000000000 hal_cpu_init
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:24     .text:0000000000000030 hal_cpu_ints_enable
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:31     .text:0000000000000040 hal_cpu_ints_disable
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:38     .text:0000000000000050 hal_cpu_thread_start
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:45     .text:0000000000000060 hal_cpu_svc_start
                             *COM*:0000000000000008 svc_callback
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:54     .text:0000000000000070 hal_cpu_delay
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:54     .text:0000000000000070 hal_cpu_delay
 
 UNDEFINED SYMBOLS
 RPi_CpuIdString
@@ -6522,7 +6522,7 @@ EnableInterrupts
 DisableInterrupts
 CoreExecute
 delays_wait_microsecs
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 1
 
 
    1              	# 1 "src/hal/hal_cpu.S"
@@ -6576,7 +6576,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
   46 008c E0039FD6 		eret
   46      00000000 
   46      00000000 
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 2
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 2
 
 
 DEFINED SYMBOLS
@@ -6586,7 +6586,7 @@ DEFINED SYMBOLS
 
 UNDEFINED SYMBOLS
 svc_callback
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 1
 
 
    1              		.arch armv8-a
@@ -6646,7 +6646,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
   51 0070 73060091 		add	x19, x19, 1
   52 0074 1F280071 		cmp	w0, 10
   53 0078 40FFFF35 		cbnz	w0, .L18
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 2
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 2
 
 
   54              	.L6:
@@ -6706,7 +6706,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  107 00fc 00000014 		b	uart0_getc
  108              		.size	hal_io_serial_getc, .-hal_io_serial_getc
  109              		.align	2
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 3
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 3
 
 
  110              		.p2align 4,,15
@@ -6722,19 +6722,19 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  120 0110 00000014 		b	uart0_nonblocking_getc
  121              		.size	hal_io_serial_nonblocking_getc, .-hal_io_serial_nonblocking_getc
  122              		.ident	"GCC: (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) 8.3.0"
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 4
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 4
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 hal_io.c
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:4      .text:0000000000000000 $x
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:8      .text:0000000000000000 hal_io_serial_init
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:19     .text:0000000000000020 hal_io_serial_hex_dump_512_bytes
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:27     .text:0000000000000030 hal_io_serial_puthex_64_bits
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:35     .text:0000000000000040 hal_io_serial_puts
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:77     .text:00000000000000b0 hal_io_serial_putc
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:101    .text:00000000000000f0 hal_io_serial_getc
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:113    .text:0000000000000100 hal_io_serial_nonblocking_getc
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:4      .text:0000000000000000 $x
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:8      .text:0000000000000000 hal_io_serial_init
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:19     .text:0000000000000020 hal_io_serial_hex_dump_512_bytes
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:27     .text:0000000000000030 hal_io_serial_puthex_64_bits
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:35     .text:0000000000000040 hal_io_serial_puts
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:77     .text:00000000000000b0 hal_io_serial_putc
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:101    .text:00000000000000f0 hal_io_serial_getc
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:113    .text:0000000000000100 hal_io_serial_nonblocking_getc
 
 UNDEFINED SYMBOLS
 uart0_init
@@ -6743,7 +6743,7 @@ uart0_puthex_64_bits
 uart0_putc
 uart0_getc
 uart0_nonblocking_getc
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 1
 
 
    1              		.arch armv8-a
@@ -6773,19 +6773,19 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
   24 002c 00000014 		b	sd_readblock
   25              		.size	hal_sd_card_read_block, .-hal_sd_card_read_block
   26              		.ident	"GCC: (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) 8.3.0"
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 2
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 2
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 hal_sd_card.c
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:4      .text:0000000000000000 $x
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:8      .text:0000000000000000 hal_sd_card_init
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:20     .text:0000000000000020 hal_sd_card_read_block
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:4      .text:0000000000000000 $x
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:8      .text:0000000000000000 hal_sd_card_init
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:20     .text:0000000000000020 hal_sd_card_read_block
 
 UNDEFINED SYMBOLS
 sd_init
 sd_readblock
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 1
 
 
    1              		.arch armv8-a
@@ -6845,7 +6845,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
   55              		.p2align 3
   56              	.L24:
   57 00b0 9F02076B 		cmp	w20, w7
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 2
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 2
 
 
   58 00b4 6A000054 		bge	.L11
@@ -6905,7 +6905,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  112              		.global	hal_io_video_draw_image
  113              		.type	hal_io_video_draw_image, %function
  114              	hal_io_video_draw_image:
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 3
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 3
 
 
  115 0150 0F000090 		adrp	x15, .LANCHOR0
@@ -6965,7 +6965,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  169 0214 220500B9 		str	w2, [x9, 4]
  170 0218 C0035FD6 		ret
  171              		.size	hal_io_video_draw_image, .-hal_io_video_draw_image
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 4
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 4
 
 
  172              		.align	2
@@ -7025,7 +7025,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  226 02dc C1008052 		mov	w1, 6
  227 02e0 82008052 		mov	w2, 4
  228 02e4 620200B9 		str	w2, [x19, #:lo12:.LANCHOR0]
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 5
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 5
 
 
  229 02e8 FE1740F9 		ldr	x30, [sp, 40]
@@ -7085,7 +7085,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  283              		.p2align 3
  284              	.L45:
  285 03a8 024400B8 		str	w2, [x0], 4
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 6
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 6
 
 
  286 03ac 1F0001EB 		cmp	x0, x1
@@ -7145,7 +7145,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  340 0464 DF021A6B 		cmp	w22, w26
  341 0468 29040054 		bls	.L80
  342              	.L70:
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 7
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 7
 
 
  343 046c 810740B9 		ldr	w1, [x28, 4]
@@ -7205,7 +7205,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  397              		.p2align 3
  398              	.L63:
  399 0520 00000094 		bl	fonts_char_to_font
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 8
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 8
 
 
  400 0524 E20300AA 		mov	x2, x0
@@ -7265,7 +7265,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  453              	.L94:
  454 05d8 67204029 		ldp	w7, w8, [x3]
  455 05dc 6B084129 		ldp	w11, w2, [x3, 8]
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 9
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 9
 
 
  456 05e0 6501074B 		sub	w5, w11, w7
@@ -7325,7 +7325,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  510 06a0 8C050011 		add	w12, w12, 1
  511 06a4 63400091 		add	x3, x3, 16
  512 06a8 5F000C6B 		cmp	w2, w12
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 10
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 10
 
 
  513 06ac 68F9FF54 		bhi	.L94
@@ -7385,7 +7385,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  567 0754 6A000054 		bge	.L112
  568 0758 A5000B0B 		add	w5, w5, w11
  569 075c 84000C0B 		add	w4, w4, w12
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 11
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 11
 
 
  570              	.L112:
@@ -7445,7 +7445,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  624              		.type	hal_video_put_pixel, %function
  625              	hal_video_put_pixel:
  626 07f0 03004029 		ldp	w3, w0, [x0]
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 12
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 12
 
 
  627 07f4 04A08052 		mov	w4, 1280
@@ -7505,7 +7505,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  681              		.global	continue_msg
  682              		.comm	fb,8,8
  683              		.global	curr_y
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 13
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 13
 
 
  684              		.global	curr_x
@@ -7534,36 +7534,36 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  703      6B657920 
  703      746F2063 
  704              		.ident	"GCC: (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) 8.3.0"
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 14
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 14
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 hal_video.c
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:4      .text:0000000000000000 $x
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:7      .text:0000000000000000 draw_character_raw
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:4      .text:0000000000000000 $x
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:7      .text:0000000000000000 draw_character_raw
                             *COM*:0000000000000008 fb
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:96     .text:0000000000000120 hal_video_init
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:114    .text:0000000000000150 hal_io_video_draw_image
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:176    .text:0000000000000220 hal_video_putc
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:304    .text:00000000000003e0 hal_video_puts
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:434    .text:0000000000000590 hal_video_putc_x_y
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:529    .text:00000000000006d0 hal_video_line
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:590    .text:0000000000000790 hal_video_put_pixel_area
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:625    .text:00000000000007f0 hal_video_put_pixel
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:638    .text:0000000000000810 hal_video_put_double_pixel
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:655    .text:0000000000000840 hal_video_clear
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:698    .data:0000000000000008 continue_msg
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:694    .data:0000000000000004 curr_y
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:690    .data:0000000000000000 curr_x
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:686    .data:0000000000000000 $d
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:701    .rodata.str1.8:0000000000000000 $d
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:96     .text:0000000000000120 hal_video_init
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:114    .text:0000000000000150 hal_io_video_draw_image
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:176    .text:0000000000000220 hal_video_putc
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:304    .text:00000000000003e0 hal_video_puts
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:434    .text:0000000000000590 hal_video_putc_x_y
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:529    .text:00000000000006d0 hal_video_line
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:590    .text:0000000000000790 hal_video_put_pixel_area
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:625    .text:00000000000007f0 hal_video_put_pixel
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:638    .text:0000000000000810 hal_video_put_double_pixel
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:655    .text:0000000000000840 hal_video_clear
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:698    .data:0000000000000008 continue_msg
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:694    .data:0000000000000004 curr_y
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:690    .data:0000000000000000 curr_x
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:686    .data:0000000000000000 $d
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:701    .rodata.str1.8:0000000000000000 $d
 
 UNDEFINED SYMBOLS
 fb_init
 fonts_init
 fonts_char_to_font
 hal_io_serial_getc
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 1
 
 
    1              		.arch armv8-a
@@ -7623,7 +7623,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
   50      1F2003D5 
   50      1F2003D5 
   51              		.global	hal_timer_start_poll
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 2
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 2
 
 
   52              		.type	hal_timer_start_poll, %function
@@ -7645,23 +7645,23 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
   66 009c 00000014 		b	timer_getTickCount
   67              		.size	hal_timer_read_count, .-hal_timer_read_count
   68              		.ident	"GCC: (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) 8.3.0"
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 3
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 3
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 hal_timer.c
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:4      .text:0000000000000000 $x
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:8      .text:0000000000000000 hal_timer_init
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:15     .text:0000000000000010 hal_timer_delay_microsecs
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:36     .text:0000000000000050 hal_timer_start_int
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:53     .text:0000000000000080 hal_timer_start_poll
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:60     .text:0000000000000090 hal_timer_read_count
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:4      .text:0000000000000000 $x
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:8      .text:0000000000000000 hal_timer_init
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:15     .text:0000000000000010 hal_timer_delay_microsecs
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:36     .text:0000000000000050 hal_timer_start_int
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:53     .text:0000000000000080 hal_timer_start_poll
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:60     .text:0000000000000090 hal_timer_read_count
 
 UNDEFINED SYMBOLS
 hal_cpu_ints_enable
 timer_getTickCount
 TimerIrqSetup
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 1
 
 
    1              		.arch armv8-a
@@ -7721,7 +7721,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
   54 0094 E5A705A9 		stp	x5, x9, [sp, 88]
   55 0098 E5079F1A 		cset	w5, ne
   56 009c 3F400071 		cmp	w1, 16
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 2
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 2
 
 
   57 00a0 FFA30139 		strb	wzr, [sp, 104]
@@ -7781,7 +7781,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  111 015c F4060051 		sub	w20, w23, #1
  112 0160 1813801A 		csel	w24, w24, w0, ne
  113 0164 1F2003D5 		.p2align 3
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 3
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 3
 
 
  114              	.L24:
@@ -7841,7 +7841,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  168              	.L12:
  169 0218 257C4093 		sxtw	x5, w1
  170 021c 210080D2 		mov	x1, 1
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 4
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 4
 
 
  171              		.p2align 3
@@ -7901,7 +7901,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  225 02d8 73021B0B 		add	w19, w19, w27
  226 02dc FB2340F9 		ldr	x27, [sp, 64]
  227 02e0 9AFFFF17 		b	.L22
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 5
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 5
 
 
  228              		.p2align 2
@@ -7961,7 +7961,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  282 0388 610E00B5 		cbnz	x1, .L109
  283 038c 9F000071 		cmp	w4, 0
  284 0390 2B008052 		mov	w11, 1
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 6
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 6
 
 
  285 0394 87C08B1A 		csel	w7, w4, w11, gt
@@ -8021,7 +8021,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  339 0450 E5040051 		sub	w5, w7, #1
  340 0454 1F2003D5 		.p2align 3
  341              	.L88:
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 7
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 7
 
 
  342 0458 220C00B4 		cbz	x2, .L87
@@ -8081,7 +8081,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  396 0508 010000F9 		str	x1, [x0]
  397 050c 9F000071 		cmp	w4, 0
  398 0510 0CFFFF54 		bgt	.L96
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 8
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 8
 
 
  399 0514 64040051 		sub	w4, w3, #1
@@ -8141,7 +8141,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  453 05c4 E2F0FFB4 		cbz	x2, .L82
  454 05c8 26000039 		strb	w6, [x1]
  455 05cc 010840A9 		ldp	x1, x2, [x0]
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 9
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 9
 
 
  456 05d0 420400D1 		sub	x2, x2, #1
@@ -8201,7 +8201,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  510 0684 E303092A 		mov	w3, w9
  511              		.p2align 3
  512              	.L155:
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 10
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 10
 
 
  513 0688 E5040051 		sub	w5, w7, #1
@@ -8261,7 +8261,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  566 0718 E52F803D 		str	q5, [sp, 176]
  567 071c E633803D 		str	q6, [sp, 192]
  568 0720 E737803D 		str	q7, [sp, 208]
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 11
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 11
 
 
  569 0724 E18B0EA9 		stp	x1, x2, [sp, 232]
@@ -8321,7 +8321,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  623 07d8 E4030CAA 		mov	x4, x12
  624 07dc 1FAC0071 		cmp	w0, 43
  625 07e0 81FEFF54 		bne	.L453
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 12
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 12
 
 
  626              	.L284:
@@ -8381,7 +8381,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  680 08a4 C02E0054 		beq	.L303
  681 08a8 1FE00171 		cmp	w0, 120
  682 08ac 61090054 		bne	.L204
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 13
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 13
 
 
  683 08b0 94761B12 		and	w20, w20, -25
@@ -8441,7 +8441,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  737 094c 1F2003D5 		.p2align 3
  738              	.L283:
  739 0950 F30304AA 		mov	x19, x4
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 14
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 14
 
 
  740              	.L249:
@@ -8501,7 +8501,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  794 09e4 70010014 		b	.L464
  795              		.p2align 2
  796              	.L465:
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 15
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 15
 
 
  797 09e8 E40300AA 		mov	x4, x0
@@ -8561,7 +8561,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  851              	.L457:
  852 0a8c 60064039 		ldrb	w0, [x19, 1]
  853 0a90 1FA80071 		cmp	w0, 42
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 16
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 16
 
 
  854 0a94 010B0054 		bne	.L467
@@ -8621,7 +8621,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  908 0b3c 5F000071 		cmp	w2, 0
  909 0b40 42A09F1A 		csel	w2, w2, wzr, ge
  910 0b44 45FFFF17 		b	.L185
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 17
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 17
 
 
  911              		.p2align 2
@@ -8681,7 +8681,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  965 0be8 41018052 		mov	w1, 10
  966 0bec 36F9FF36 		tbz	w22, #31, .L421
  967 0bf0 89000014 		b	.L246
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 18
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 18
 
 
  968              		.p2align 2
@@ -8741,7 +8741,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  1022 0c8c BF100071 		cmp	w5, 4
  1023 0c90 20E5FF54 		beq	.L275
  1024 0c94 BF200071 		cmp	w5, 8
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 19
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 19
 
 
  1025 0c98 A0F3FF54 		beq	.L217
@@ -8801,7 +8801,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  1079              	.L220:
  1080 0d38 00008039 		ldrsb	x0, [x0]
  1081 0d3c F30304AA 		mov	x19, x4
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 20
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 20
 
 
  1082              	.L222:
@@ -8861,7 +8861,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  1136 0de0 2D080054 		ble	.L238
  1137 0de4 F603052A 		mov	w22, w5
  1138 0de8 76FFFF17 		b	.L418
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 21
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 21
 
 
  1139              		.p2align 2
@@ -8921,7 +8921,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  1193              	.L278:
  1194 0e88 000B8012 		mov	w0, -89
  1195 0e8c 9402000A 		and	w20, w20, w0
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 22
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 22
 
 
  1196 0e90 01028052 		mov	w1, 16
@@ -8981,7 +8981,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  1250 0f28 0D060054 		ble	.L231
  1251 0f2c F603012A 		mov	w22, w1
  1252 0f30 0EFFFF17 		b	.L417
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 23
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 23
 
 
  1253              		.p2align 2
@@ -9041,7 +9041,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  1307 0fc8 E0830491 		add	x0, sp, 288
  1308 0fcc 00C0368B 		add	x0, x0, x22, sxtw
  1309 0fd0 F603012A 		mov	w22, w1
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 24
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 24
 
 
  1310 0fd4 2BFFFF17 		b	.L224
@@ -9101,7 +9101,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  1361 1068 1F2003D5 		.p2align 4,,15
  1361      1F2003D5 
  1362              		.global	cprint_int
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 25
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 25
 
 
  1363              		.type	cprint_int, %function
@@ -9161,7 +9161,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  1417 1138 06008052 		mov	w6, 0
  1418              	.L505:
  1419 113c 940A0051 		sub	w20, w20, #2
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 26
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 26
 
 
  1420 1140 60020012 		and	w0, w19, 1
@@ -9221,7 +9221,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  1474              	.L498:
  1475 11f8 737E4093 		sxtw	x19, w19
  1476 11fc 03000014 		b	.L501
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 27
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 27
 
 
  1477              		.p2align 2
@@ -9281,7 +9281,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  1531 12b0 15696738 		ldrb	w21, [x8, x7]
  1532 12b4 35F01F38 		strb	w21, [x1, -1]
  1533 12b8 C2FEFF54 		bcs	.L487
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 28
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 28
 
 
  1534 12bc FF02056B 		cmp	w23, w5
@@ -9341,7 +9341,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  1586 1354 FE2700F9 		str	x30, [sp, 72]
  1587              	.L543:
  1588 1358 60024039 		ldrb	w0, [x19]
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 29
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 29
 
 
  1589 135c 00010034 		cbz	w0, .L815
@@ -9401,7 +9401,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  1643 1414 F9FFFF17 		b	.L817
  1644              		.p2align 2
  1645              	.L548:
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 30
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 30
 
 
  1646 1418 1FB40071 		cmp	w0, 45
@@ -9461,7 +9461,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  1700 14d0 1FB00171 		cmp	w0, 108
  1701 14d4 20080054 		beq	.L567
  1702              	.L824:
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 31
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 31
 
 
  1703 14d8 680B0054 		bhi	.L568
@@ -9521,7 +9521,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  1757 1590 01FAFF54 		bne	.L561
  1758 1594 1F2003D5 		.p2align 3
  1759              	.L819:
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 32
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 32
 
 
  1760 1598 60064039 		ldrb	w0, [x19, 1]
@@ -9581,7 +9581,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  1814              	.L568:
  1815 1644 1FD00171 		cmp	w0, 116
  1816 1648 800C0054 		beq	.L571
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 33
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 33
 
 
  1817 164c 1FE80171 		cmp	w0, 122
@@ -9641,7 +9641,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  1871 16f4 61010054 		bne	.L578
  1872              	.L644:
  1873 16f8 B726F837 		tbnz	w23, #31, .L600
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 34
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 34
 
 
  1874 16fc C12E0091 		add	x1, x22, 11
@@ -9701,7 +9701,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  1928 179c 5F031BEB 		cmp	x26, x27
  1929 17a0 41FFFF54 		bne	.L833
  1930              	.L786:
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 35
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 35
 
 
  1931 17a4 FB2340F9 		ldr	x27, [sp, 64]
@@ -9761,7 +9761,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  1985 1848 000A8052 		mov	w0, 80
  1986 184c A510831A 		csel	w5, w5, w3, ne
  1987 1850 9402002A 		orr	w20, w20, w0
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 36
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 36
 
 
  1988 1854 3F080071 		cmp	w1, 2
@@ -9821,7 +9821,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  2042              		.p2align 2
  2043              	.L821:
  2044 18fc 1F600171 		cmp	w0, 88
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 37
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 37
 
 
  2045 1900 201B0054 		beq	.L639
@@ -9881,7 +9881,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  2099 19ac 40170054 		beq	.L575
  2100 19b0 29E9FF54 		bls	.L799
  2101 19b4 1F8C0171 		cmp	w0, 99
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 38
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 38
 
 
  2102 19b8 00E8FF54 		beq	.L579
@@ -9941,7 +9941,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  2156 1a68 E1220011 		add	w1, w23, 8
  2157 1a6c 3F000071 		cmp	w1, 0
  2158 1a70 8D090054 		ble	.L612
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 39
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 39
 
 
  2159 1a74 E00316AA 		mov	x0, x22
@@ -10001,7 +10001,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  2213 1b30 A2FEFF17 		b	.L565
  2214              		.p2align 2
  2215              	.L677:
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 40
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 40
 
 
  2216 1b34 43018052 		mov	w3, 10
@@ -10061,7 +10061,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  2270 1bdc E00316AA 		mov	x0, x22
  2271 1be0 F703012A 		mov	w23, w1
  2272 1be4 56F07D92 		and	x22, x2, -8
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 41
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 41
 
 
  2273 1be8 C8FEFF17 		b	.L601
@@ -10121,7 +10121,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  2327 1c9c 03028052 		mov	w3, 16
  2328 1ca0 000A8052 		mov	w0, 80
  2329 1ca4 9402002A 		orr	w20, w20, w0
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 42
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 42
 
 
  2330 1ca8 37DEFF36 		tbz	w23, #31, .L840
@@ -10181,7 +10181,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  2384 1d48 1F000039 		strb	wzr, [x0]
  2385 1d4c E01B40F9 		ldr	x0, [sp, 48]
  2386              	.L944:
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 43
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 43
 
 
  2387 1d50 D502158B 		add	x21, x22, x21
@@ -10241,7 +10241,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  2441 1e08 1F010071 		cmp	w8, 0
  2442 1e0c E6090253 		ubfx	w6, w15, 2, 1
  2443 1e10 C600831A 		csel	w6, w6, w3, eq
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 44
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 44
 
 
  2444 1e14 FF000071 		cmp	w7, 0
@@ -10301,7 +10301,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  2498 1ed0 9F040031 		cmn	w4, #1
  2499 1ed4 60070054 		beq	.L982
  2500              		.p2align 3
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 45
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 45
 
 
  2501              	.L965:
@@ -10361,7 +10361,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  2555 1f84 09160054 		bls	.L1152
  2556 1f88 3FD40171 		cmp	w1, 117
  2557 1f8c 80180054 		beq	.L991
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 46
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 46
 
 
  2558 1f90 3FE00171 		cmp	w1, 120
@@ -10421,7 +10421,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  2612 202c 29060054 		bls	.L1154
  2613 2030 3FD40171 		cmp	w1, 117
  2614 2034 C0160054 		beq	.L988
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 47
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 47
 
 
  2615 2038 3FE00171 		cmp	w1, 120
@@ -10481,7 +10481,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  2669 20d8 412E0091 		add	x1, x18, 11
  2670 20dc E00312AA 		mov	x0, x18
  2671 20e0 32F07D92 		and	x18, x1, -8
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 48
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 48
 
 
  2672              	.L902:
@@ -10541,7 +10541,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  2726 218c 03000014 		b	.L938
  2727              		.p2align 2
  2728              	.L1158:
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 49
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 49
 
 
  2729 2190 23004039 		ldrb	w3, [x1]
@@ -10601,7 +10601,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  2783 2238 41F6FF54 		bne	.L879
  2784 223c 73FEFF36 		tbz	w19, #31, .L1159
  2785 2240 FE000014 		b	.L904
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 50
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 50
 
 
  2786              		.p2align 2
@@ -10661,7 +10661,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  2840              	.L857:
  2841 22ec 61220011 		add	w1, w19, 8
  2842 22f0 3F000071 		cmp	w1, 0
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 51
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 51
 
 
  2843 22f4 0D0A0054 		ble	.L859
@@ -10721,7 +10721,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  2897              		.p2align 2
  2898              	.L1150:
  2899 2398 C1094039 		ldrb	w1, [x14, 2]
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 52
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 52
 
 
  2900 239c C5090091 		add	x5, x14, 2
@@ -10781,7 +10781,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  2954 2448 8D120054 		ble	.L927
  2955 244c 412E0091 		add	x1, x18, 11
  2956 2450 E20312AA 		mov	x2, x18
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 53
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 53
 
 
  2957 2454 F303002A 		mov	w19, w0
@@ -10841,7 +10841,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  3011 2504 E1DFFF54 		bne	.L879
  3012 2508 EF751B12 		and	w15, w15, -25
  3013 250c 02028052 		mov	w2, 16
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 54
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 54
 
 
  3014 2510 EF01022A 		orr	w15, w15, w2
@@ -10901,7 +10901,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  3068 25b0 A3BAFF34 		cbz	w3, .L843
  3069 25b4 21040091 		add	x1, x1, 1
  3070 25b8 02FFFFB5 		cbnz	x2, .L1167
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 55
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 55
 
 
  3071              	.L935:
@@ -10961,7 +10961,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  3125              		.p2align 2
  3126              	.L894:
  3127 2658 61220011 		add	w1, w19, 8
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 56
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 56
 
 
  3128 265c 3F000071 		cmp	w1, 0
@@ -11021,7 +11021,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  3182              	.L900:
  3183 26fc 80C2338B 		add	x0, x20, x19, sxtw
  3184 2700 F303012A 		mov	w19, w1
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 57
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 57
 
 
  3185 2704 10FFFF17 		b	.L899
@@ -11081,7 +11081,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  3237              		.type	cprintf, %function
  3238              	cprintf:
  3239 27b0 FF0304D1 		sub	sp, sp, #256
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 58
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 58
 
 
  3240 27b4 E9048012 		mov	w9, -40
@@ -11122,31 +11122,31 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  3272      43444546 
  3272      00
  3273              		.ident	"GCC: (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) 8.3.0"
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 59
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 59
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 kprintf.c
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:4      .text:0000000000000000 $x
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:7      .text:0000000000000000 buffer_add
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:24     .text:0000000000000030 local_putc
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:32     .text:0000000000000040 cprint_int.constprop.3
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:250    .text:0000000000000310 cprint_int.constprop.2
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:538    .text:00000000000006c0 debug_putc
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:547    .text:00000000000006d0 kprintf
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:1331   .text:0000000000001010 kprintf_debug
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:1338   .text:0000000000001020 atoi
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:1364   .text:0000000000001070 cprint_int
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:1576   .text:0000000000001330 vcprintf
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:2353   .text:0000000000001ce0 vsnprintf
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:3203   .text:0000000000002730 snprintf
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:3238   .text:00000000000027b0 cprintf
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:3270   .rodata.str1.8:0000000000000000 $d
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:4      .text:0000000000000000 $x
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:7      .text:0000000000000000 buffer_add
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:24     .text:0000000000000030 local_putc
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:32     .text:0000000000000040 cprint_int.constprop.3
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:250    .text:0000000000000310 cprint_int.constprop.2
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:538    .text:00000000000006c0 debug_putc
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:547    .text:00000000000006d0 kprintf
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:1331   .text:0000000000001010 kprintf_debug
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:1338   .text:0000000000001020 atoi
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:1364   .text:0000000000001070 cprint_int
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:1576   .text:0000000000001330 vcprintf
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:2353   .text:0000000000001ce0 vsnprintf
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:3203   .text:0000000000002730 snprintf
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:3238   .text:00000000000027b0 cprintf
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:3270   .rodata.str1.8:0000000000000000 $d
 
 UNDEFINED SYMBOLS
 hal_video_putc
 hal_io_serial_putc
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 1
 
 
    1              		.arch armv8-a
@@ -11206,7 +11206,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
   55 00a8 BF02136B 		cmp	w21, w19
   56 00ac E1FEFF54 		bne	.L5
   57              	.L31:
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 2
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 2
 
 
   58 00b0 15000090 		adrp	x21, .LC2
@@ -11266,7 +11266,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  112 0168 B5020091 		add	x21, x21, :lo12:.LC1
  113 016c F40313AA 		mov	x20, x19
  114              		.p2align 3
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 3
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 3
 
 
  115              	.L13:
@@ -11326,7 +11326,7 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  169 0224 7F03146B 		cmp	w27, w20
  170 0228 48FFFF54 		bhi	.L15
  171 022c D8FFFF17 		b	.L14
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 4
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 4
 
 
  172              	.L18:
@@ -11363,14 +11363,14 @@ AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 1
  199              	.LC4:
  200 0020 0A0D00   		.string	"\n\r"
  201              		.ident	"GCC: (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) 8.3.0"
-AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s 			page 5
+AARCH64 GAS  C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s 			page 5
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 kprintf_hex_dump.c
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:4      .text:0000000000000000 $x
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:8      .text:0000000000000000 kprintf_hex_dump
-C:\Users\A01169~1\AppData\Local\Temp\ccAjnA8b.s:186    .rodata.str1.8:0000000000000000 $d
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:4      .text:0000000000000000 $x
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:8      .text:0000000000000000 kprintf_hex_dump
+C:\Users\A01169~1\AppData\Local\Temp\cc2F8g6m.s:186    .rodata.str1.8:0000000000000000 $d
 
 UNDEFINED SYMBOLS
 kprintf

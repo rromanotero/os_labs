@@ -70,5 +70,5 @@ Write-Host "= = = = = = = = = = = = = = "
 & "$QEMU_BIN_PATH\qemu-system-aarch64.exe" `
 			-M raspi3 `
 			-kernel output/kernel8.img  `
-			-drive file=.\sd_card\sd_card.img,if=sd,format=raw `
+			-drive file=.\sd_card\sd_card_many_files.img,if=sd,format=raw `
 			-serial stdio -serial null

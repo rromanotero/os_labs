@@ -123,7 +123,7 @@ int kernel_main (void) {
 	hal_cpu_thread_start( 1, thread_1 );   // CPU threads are not the typical threads
 	hal_cpu_thread_start( 2, thread_2 );   // from a scheduler. These threads ARE NEVER
 	hal_cpu_thread_start( 3, thread_3 );   // PREEMTED, and they run in THEIR OWN CORE
-                                           // until completion. THEY'RE ALMIGHTY THREADS! 
+                                           // until completion. THEY'RE ALMIGHTY THREADS!
 
     hal_timer_start_poll( TimerSysTick );   //SysTick is ARM's System Timer
                                             //It counts in steps of 1 microsecond
